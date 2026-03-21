@@ -1,5 +1,5 @@
 <h1 align="center">Lakshya Kumar</h1>
-<p align="center"><strong>VP, Web3 & AI Solutions · Blockchain Architect · AI Builder</strong></p>
+<p align="center"><strong>Tech Lead in Fintech · Crypto & Payments Engineer · Blockchain Architect</strong></p>
 
 <p align="center">
   <a href="https://linkedin.com/in/lakshyakumar"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -7,21 +7,22 @@
   <a href="https://github.com/lakshyakumar"><img src="https://img.shields.io/github/followers/lakshyakumar?label=Follow&style=social" alt="GitHub followers"/></a>
 </p>
 
-I build production systems at the intersection of blockchain, AI, and automation.
+I build production systems across fintech, crypto, payments, and automation.
 
-With 6+ years in Web3 engineering, I work on custody, account abstraction, tokenization platforms, smart contract architecture, and AI-powered tooling. My focus is practical engineering: shipping reliable systems, simplifying complex workflows, and building products that survive contact with reality.
+With 6+ years in engineering, I work on crypto infrastructure, payment systems, custody, account abstraction, tokenization platforms, smart contract architecture, and AI-powered tooling. My focus is practical engineering: shipping reliable systems, simplifying complex workflows, and building products that survive contact with reality.
 
 ## Snapshot
 
-- **Current role:** Vice President of Web3 & AI at Formidium
+- **Current role:** Tech Lead in a fintech organization, working across crypto and payments, since November 2025
+- **Past role:** Vice President, Web3 & AI Solutions at Formidium
 - **Education:** M.Tech in Computational Mathematics, NIT Surathkal
-- **Core strengths:** blockchain architecture, AI automation, backend systems, cloud infrastructure
-- **Deep interests:** key custody, ZKPs, smart contract security, RAG systems, developer tooling
+- **Core strengths:** fintech systems, blockchain architecture, AI automation, backend systems, cloud infrastructure
+- **Deep interests:** crypto rails, payments, key custody, ZKPs, smart contract security, RAG systems, developer tooling
 
 ## Toolbox
 
-**Blockchain & Web3**  
-EVM, Solidity, ERC-4337, ZKP, Provenance Blockchain, Account Abstraction, Tokenization, Hyperledger Fabric, Hyperledger Besu
+**Fintech, Blockchain & Web3**  
+Crypto payments, EVM, Solidity, ERC-4337, ZKP, Provenance Blockchain, Account Abstraction, Tokenization, Hyperledger Fabric, Hyperledger Besu
 
 **AI & Automation**  
 LangChain, LangGraph, Retrieval-Augmented Generation, Pydantic AI, Crew AI
@@ -56,10 +57,10 @@ Infrastructure automation contributions for blockchain deployment and network op
 
 I enjoy explaining hard technical ideas in ways teams can actually use. Topics I write and speak about include:
 
+- Crypto infrastructure and payment systems
 - Account abstraction and ERC-4337
 - Blockchain architecture and tokenization systems
-- Developer workflows and Docker-based setups
-- AI assistants, RAG pipelines, and automation tools
+- Developer workflows, AI assistants, and automation tools
 
 ## GitHub Activity
 
@@ -69,9 +70,9 @@ I enjoy explaining hard technical ideas in ways teams can actually use. Topics I
 
 ## Open To
 
-- Senior engineering and architecture opportunities in Web3, AI, and backend systems
+- Senior engineering, tech lead, and architecture opportunities in fintech, crypto, AI, and backend systems
 - Advisory, product engineering, and platform design work
-- Conversations around developer tools, infra, tokenization, and applied AI
+- Conversations around payments, developer tools, infra, tokenization, and applied AI
 
 ## Contact
 
