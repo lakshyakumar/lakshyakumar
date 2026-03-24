@@ -1,66 +1,67 @@
 <h1 align="center">Lakshya Kumar</h1>
-<p align="center"><strong>Tech Lead in Fintech · Crypto & Payments Engineer · Blockchain Architect</strong></p>
+<p align="center"><strong>Tech Lead | Blockchain · AI · Crypto Payments · Cloud Platforms</strong></p>
+<p align="center">Bengaluru, India</p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/lakshyakumar"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://linkedin.com/in/lakshya-kumar"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:lklsquare@gmail.com"><img src="https://img.shields.io/badge/Email-%23D14836.svg?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://github.com/lakshyakumar"><img src="https://img.shields.io/github/followers/lakshyakumar?label=Follow&style=social" alt="GitHub followers"/></a>
 </p>
 
-I build production systems across fintech, crypto, payments, and automation.
+Engineering leader with 7+ years building production blockchain platforms, AI systems, and cloud-native backend services. I ship reliable systems that survive contact with reality — across EVM ecosystems, tokenization platforms, custodial wallets, AI agents, and crypto payments infrastructure.
 
-With 6+ years in engineering, I work on crypto infrastructure, payment systems, custody, account abstraction, tokenization platforms, smart contract architecture, and AI-powered tooling. My focus is practical engineering: shipping reliable systems, simplifying complex workflows, and building products that survive contact with reality.
+Key outcomes I've delivered: **80%+ faster release cycles**, **99.9% uptime** across distributed services, **60% reduction in retrieval latency** on AI systems, and teams scaled from 5 to 15+ engineers.
 
 ## Snapshot
 
-- **Current role:** Tech Lead in a fintech organization, working across crypto and payments, since November 2025
-- **Past role:** Vice President, Web3 & AI Solutions at Formidium
+- **Current role:** Tech Lead (Contract) at Payram — self-hosted crypto payments platform in Go (Oct 2025 – Present)
+- **Previous role:** VP, Web3 & AI Solutions at Formidium (Feb 2024 – Oct 2025)
 - **Education:** M.Tech in Computational Mathematics, NIT Surathkal
-- **Core strengths:** fintech systems, blockchain architecture, AI automation, backend systems, cloud infrastructure
-- **Deep interests:** crypto rails, payments, key custody, ZKPs, smart contract security, RAG systems, developer tooling
+- **Core strengths:** blockchain architecture, crypto payments, AI/RAG systems, cloud infrastructure, team leadership
+- **Deep interests:** crypto rails, ERC-4337 account abstraction, key custody, ZKPs, MCP tooling, developer productivity
 
 ## Toolbox
 
-**Fintech, Blockchain & Web3**  
-Crypto payments, EVM, Solidity, ERC-4337, ZKP, Provenance Blockchain, Account Abstraction, Tokenization, Hyperledger Fabric, Hyperledger Besu
+**Blockchain & Web3**
+EVM, Solidity, ERC-4337, ERC-1400, Account Abstraction, Provenance Blockchain, Hyperledger Fabric, Hyperledger Besu, Polygon, Avalanche, Tokenization, Cross-chain Bridges, Smart Contract Wallets
 
-**AI & Automation**  
-LangChain, LangGraph, Retrieval-Augmented Generation, Pydantic AI, Crew AI
+**AI & Agent Systems**
+LangChain, LangGraph, RAG, Semantic Search, Vector Databases, AI Memory Systems, MCP, MCP Servers, PydanticAI, CrewAI, AI Tool Orchestration
 
-**Cloud, DevOps & Delivery**  
-AWS, ECS, Lambda, Secrets Manager, Docker, Kubernetes, GitHub Actions, Jenkins, CI/CD pipelines
+**Cloud, DevOps & Delivery**
+AWS (ECS, EC2, Lambda, S3, ECR, CodeBuild, CodePipeline), Docker, Kubernetes, GitHub Actions, Jenkins, CI/CD, GitOps, Zero-downtime deployments
 
-**Languages & Frameworks**  
-Rust, Python, JavaScript, Node.js, React, Next.js
+**Languages & Frameworks**
+Go, TypeScript, JavaScript, Python, Rust, Solidity, Node.js, React, Next.js, REST APIs, Microservices
 
 ## Selected Work
 
-### [Wallact](https://github.com/lakshyakumar/wallact)
-A lightweight wrapper around ethers.js to simplify smart contract interactions and improve developer ergonomics.
+### [Hyperledger Bevel](https://github.com/hyperledger/bevel)
+Open-source accelerator for production-ready distributed ledger deployment on Kubernetes. Contributed deployment pipelines for Fabric, Besu, and Quorum.
 
 ### [Advanced RAG](https://github.com/lakshyakumar/advanced-rag)
-A retrieval-augmented AI assistant for document question answering and knowledge workflows.
+Production AI assistant for document question answering using LangChain and LangGraph. Built for enterprise knowledge retrieval workflows.
 
 ### [Tokenization Platform](https://github.com/lakshyakumar/tokenization-platform)
-A platform for fund token sale workflows, staking, and EVM-based smart contract integrations.
-
-### [Turbulent](https://github.com/lakshyakumar/turbulent)
-A React and Next.js hook library for blockchain interfaces and wallet-connected applications.
+Fund tokenization platform across EVM-compatible and Provenance chains using ERC-1400 — staking, sales, and token contract architecture.
 
 ### [ERC-4337 Account Abstraction](https://github.com/lakshyakumar/ERC4337-project)
-A practical implementation and tutorial project focused on smart contract wallets and account abstraction patterns.
+Practical implementation of smart contract wallets and account abstraction patterns. Tutorial-grade with production-quality design.
 
-### [Hyperledger Bevel Contributions](https://github.com/hyperledger/bevel)
-Infrastructure automation contributions for blockchain deployment and network operations.
+### [Wallact](https://github.com/lakshyakumar/wallact)
+Lightweight ethers.js wrapper for cleaner smart contract interaction and improved developer ergonomics.
+
+### [Turbulent](https://github.com/lakshyakumar/turbulent)
+React and Next.js hook library for blockchain interfaces and wallet-connected applications.
 
 ## Writing & Mentoring
 
-I enjoy explaining hard technical ideas in ways teams can actually use. Topics I write and speak about include:
+I write about hard technical ideas in ways engineering teams can actually use. Topics include:
 
-- Crypto infrastructure and payment systems
-- Account abstraction and ERC-4337
-- Blockchain architecture and tokenization systems
-- Developer workflows, AI assistants, and automation tools
+- Crypto payments infrastructure and settlement workflows
+- ERC-4337 account abstraction and smart contract wallet design
+- Blockchain architecture, tokenization, and custody systems
+- RAG systems, AI tooling, MCP servers, and developer automation
 
 ## GitHub Activity
 
@@ -70,12 +71,12 @@ I enjoy explaining hard technical ideas in ways teams can actually use. Topics I
 
 ## Open To
 
-- Senior engineering, tech lead, and architecture opportunities in fintech, crypto, AI, and backend systems
-- Advisory, product engineering, and platform design work
-- Conversations around payments, developer tools, infra, tokenization, and applied AI
+- Senior engineering, tech lead, and architecture roles in fintech, crypto, AI, and backend systems
+- Advisory and product engineering work in payments, tokenization, and applied AI
+- Conversations around crypto rails, developer tooling, custody infrastructure, and MCP/AI agent systems
 
 ## Contact
 
-- LinkedIn: <https://linkedin.com/in/lakshyakumar>
-- Email: <mailto:lklsquare@gmail.com>
+- LinkedIn: <https://linkedin.com/in/lakshya-kumar>
+- Email: <lklsquare@gmail.com>
 - GitHub: <https://github.com/lakshyakumar>
