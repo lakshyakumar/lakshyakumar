@@ -3,7 +3,7 @@
 <p align="center">Bengaluru, India</p>
 
 <p align="center">
-  <a href="https://lakshyakumar.github.io/"><img src="https://img.shields.io/badge/Portfolio-%23FF5733.svg?style=for-the-badge&logo=react&logoColor=white" alt="Live Portfolio"/></a>
+  <a href="https://lakshyakumar.github.io/lakshyakumar/"><img src="https://img.shields.io/badge/Portfolio-%23FF5733.svg?style=for-the-badge&logo=react&logoColor=white" alt="Live Portfolio"/></a>
 </p>
 <p align="center">
   <a href="https://linkedin.com/in/lakshya-kumar-52735737"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -99,10 +99,10 @@ I write about hard technical ideas in ways engineering teams can actually use. T
 ## GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.all-at-once.workers.dev/api?username=lakshyakumar&show_icons=true&theme=nord" alt="Lakshya's GitHub stats" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=lakshyakumar&show_icons=true&theme=nord" alt="Lakshya's GitHub stats" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.all-at-once.workers.dev/api/top-langs/?username=lakshyakumar&layout=compact&theme=nord" alt="Top Languages" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=lakshyakumar&layout=compact&theme=nord" alt="Top Languages" />
 </p>
 
 ## Certifications
