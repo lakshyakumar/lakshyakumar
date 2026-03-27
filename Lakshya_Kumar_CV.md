@@ -2,13 +2,13 @@
 **Tech Lead | Blockchain, AI, Cloud Platforms**
 
 Bengaluru, India | +91-9008791697 | lklsquare@gmail.com
-LinkedIn: linkedin.com/in/lakshya-kumar | GitHub: github.com/lakshyakumar
+LinkedIn: https://www.linkedin.com/in/lakshya-kumar-52735737/ | GitHub: github.com/lakshyakumar
 
 ---
 
 ## PROFESSIONAL SUMMARY
 
-Engineering leader with 7+ years of experience delivering production blockchain platforms, AI systems, and cloud-native backend services. Expertise spans EVM ecosystems, Provenance Blockchain, fund tokenization, custodial wallets, ERC-4337 account abstraction, RAG-based AI systems, and MCP-compatible AI tooling. Proven track record: reduced release cycles by 80%+, maintained 99.9% uptime, cut AI retrieval latency by 60%, and led cross-functional teams of 5 to 15+ engineers across fintech, enterprise, and open-source environments. Adept at owning full delivery cycles — from architecture through production rollout.
+Engineering leader with 7+ years of experience delivering production blockchain platforms, AI systems, and cloud-native backend services. Expertise spans EVM ecosystems, Provenance Blockchain, fund tokenization, custodial wallets, ERC-4337 account abstraction, RAG-based AI systems, MCP-compatible AI tooling, and self-hosted crypto payments infrastructure. Proven track record: reduced release cycles by 80%+, maintained 99.9% uptime, cut AI retrieval latency by 60%, and led cross-functional teams of 5 to 15+ engineers across fintech, enterprise, and open-source environments. Adept at owning full delivery cycles — from architecture through production rollout.
 
 ---
 
@@ -16,11 +16,11 @@ Engineering leader with 7+ years of experience delivering production blockchain 
 
 **Languages:** JavaScript, TypeScript, Python, Go, Solidity, Rust
 
-**Backend & Frameworks:** Node.js, React, Next.js, REST APIs, Microservices, LangChain, LangGraph, CrewAI, PydanticAI
+**Backend & Frameworks:** Node.js, NestJS, React, Next.js, FastAPI, REST APIs, Microservices, LangChain, LangGraph, CrewAI, PydanticAI
 
 **Blockchain:** EVM, Provenance Blockchain, Hyperledger Fabric, Hyperledger Besu, Polygon, Avalanche, ERC-1400, ERC-4337, Account Abstraction, Smart Contract Wallets, Fund Tokenization, Cross-chain Bridges
 
-**AI & Agent Systems:** Retrieval-Augmented Generation (RAG), Semantic Search, Vector Databases, AI Memory Systems, Model Context Protocol (MCP), MCP Servers, AI Tool Orchestration, Context Management
+**AI & Agent Systems:** Retrieval-Augmented Generation (RAG), Semantic Search, Vector Databases, AI Memory Systems, Model Context Protocol (MCP), MCP Servers, AI Tool Orchestration, Context Management, Knowledge Base Construction
 
 **Cloud & DevOps:** AWS (ECS, EC2, Lambda, S3, ECR, CodeBuild, CodePipeline), Docker, Kubernetes, CI/CD, GitHub Actions, Jenkins, GitOps
 
@@ -35,7 +35,7 @@ Engineering leader with 7+ years of experience delivering production blockchain 
 ### Tech Lead (Contract) | Payram | Oct 2025 – Present
 
 - Led development of a self-hosted crypto payments platform in Go for merchant-managed payment infrastructure.
-- Built and launched a production wallet and payments application supporting live transaction execution.
+- Built and launched a production wallet and payments application supporting live stablecoin transaction execution.
 - Designed backend systems for stablecoin and crypto transaction processing with production-grade reliability.
 - Architected API-driven payment workflows for faster settlement and cleaner service integration.
 - Owned full delivery cycle: architecture, implementation, deployment, and production rollout as sole contract Tech Lead.
@@ -102,23 +102,68 @@ Engineering leader with 7+ years of experience delivering production blockchain 
 
 ## SELECTED PROJECTS
 
-**Hyperledger Bevel** — Open-source accelerator for production-ready distributed ledger deployment on Kubernetes. Active contributor and committer.
+### AI & Agent Systems
 
-**Fund Tokenization Platform** — Architected staking, sales, and token contracts across EVM-compatible and Provenance chains using ERC-1400.
+**RepoMind** — Repository Intelligence MCP server for coding agents. Provides structured codebase context and semantic search for AI-assisted development.
+GitHub: github.com/lakshyakumar/repomind
 
-**Advanced RAG Assistant** — Production AI assistant for document question answering using LangChain and LangGraph with semantic search and vector retrieval.
+**Prism Canvas** — Full-spectrum market intelligence Claude Skill for founders. Lean Canvas extended with competitor analysis and validation frameworks. Active use in the Claude skills ecosystem.
+GitHub: github.com/lakshyakumar/prism-canvas
+
+**ContextWeaver AI** — Context-aware AI agent using LangGraph and PydanticAI. Web search, knowledge base construction, token budgeting, and dynamic subgraph switching.
+GitHub: github.com/lakshyakumar/ContextWeaver-AI
+
+**Knowledge Base AI** — FastAPI-based AI agent that scrapes URIs, answers queries, and creates persistent knowledge bases using LangGraph and PydanticAI.
+GitHub: github.com/lakshyakumar/Knowledge-Base-AI
+
+**Advanced RAG Assistant** — Production AI assistant with AI-rephrased query preprocessing before vectorized search. Built with LangChain and LangGraph.
+GitHub: github.com/lakshyakumar/Advanced-RAG
 
 **AI Developer Tooling / MCP Server Infrastructure** — MCP-compatible tooling for structured context delivery, semantic search, AI memory access, and execution workflows.
 
-**Open Source NPM Libraries** — Developer tooling including Turbulent (React/Next.js hooks), Enthalpy, XlToDb, and Wallact (ethers.js wrapper).
+### Blockchain & Web3
+
+**Hyperledger Bevel** — Open-source accelerator for production-ready distributed ledger deployment on Kubernetes. Active contributor and committer.
+GitHub: github.com/hyperledger/bevel
+
+**Fund Tokenization Platform** — Staking, sales, and token contracts across EVM-compatible and Provenance chains using ERC-1400 security token standards.
+GitHub: github.com/lakshyakumar/Tokenization-Platform
+
+**ERC-4337 Account Abstraction** — Step-by-step Solidity implementation of smart contract wallets and account abstraction patterns.
+GitHub: github.com/lakshyakumar/Demistifying-Account-Abstraction-A-Step-by-Step-Exploration
+
+**Wallact** — TypeScript/ethers.js wrapper for simplified smart contract interaction. Published on npm.
+GitHub: github.com/lakshyakumar/wallact
+
+### Developer Tooling & Libraries
+
+**Turbulent** — React and Next.js hook library for blockchain interfaces and wallet-connected applications. Published on npm.
+GitHub: github.com/lakshyakumar/turbulent
+
+**Next.js Boilerplate** — Production-ready Next.js + Tailwind + Mongoose starter with authentication and TypeScript.
+GitHub: github.com/lakshyakumar/Nextjs-boilerplate
+
+**NestJS Mongoose Boilerplate** — Enterprise NestJS boilerplate with Mongoose, TypeScript, and modular architecture.
+GitHub: github.com/lakshyakumar/nestjs-mongoose-boilerplate
+
+**LeadPrep** — Comprehensive interview preparation roadmap covering system design, algorithms, and engineering concepts. Live on GitHub Pages.
+GitHub: github.com/lakshyakumar/leadprep
 
 ---
 
 ## EDUCATION
 
-**M.Tech in Computational Mathematics** | NIT Surathkal, Karnataka | Jul 2016 – Jun 2018
+**M.Tech in Computational Mathematics** | NIT Surathkal, Karnataka | Jul 2016 – Jun 2018 | CGPA: 8.39
 
-**B.Tech** | Delhi Technological University, Delhi | 2011 – 2015
+**B.Tech in Computer Science** | Delhi Technological University, Delhi | Jul 2011 – Jun 2015
+
+---
+
+## CERTIFICATIONS
+
+- **AWS Certified Cloud Practitioner** — Amazon Web Services
+- **Building AI-Powered Search with MongoDB Vector Search** — MongoDB (Jun 2025)
+- **Building RAG Apps Using MongoDB** — MongoDB (Jun 2025)
 
 ---
 
@@ -126,3 +171,4 @@ Engineering leader with 7+ years of experience delivering production blockchain 
 
 - Author of technical articles on account abstraction, AI tooling, vector search, blockchain systems, and developer tools.
 - Active contributor to open-source blockchain and developer tooling ecosystems (Hyperledger Bevel, Hyperledger Labs).
+- Maintainer of published npm packages: Wallact, Turbulent, Enthalpy, XlToDb.

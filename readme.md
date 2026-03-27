@@ -3,7 +3,7 @@
 <p align="center">Bengaluru, India</p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/lakshya-kumar"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://linkedin.com/in/lakshya-kumar-52735737"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="mailto:lklsquare@gmail.com"><img src="https://img.shields.io/badge/Email-%23D14836.svg?style=flat&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://github.com/lakshyakumar"><img src="https://img.shields.io/github/followers/lakshyakumar?label=Follow&style=social" alt="GitHub followers"/></a>
 </p>
@@ -36,23 +36,53 @@ Go, TypeScript, JavaScript, Python, Rust, Solidity, Node.js, React, Next.js, RES
 
 ## Selected Work
 
+### 🤖 AI & Agent Systems
+
+### [RepoMind](https://github.com/lakshyakumar/repomind)
+Repository Intelligence MCP server for coding agents. Provides structured codebase context, semantic search across repos, and tool-based access patterns for AI-assisted development workflows.
+
+### [Prism Canvas](https://github.com/lakshyakumar/prism-canvas)
+Full-spectrum market intelligence Claude Skill for founders — Lean Canvas extended with competitor analysis, validation frameworks, and strategic clarity. Accepted use in the Claude skills ecosystem.
+
+### [ContextWeaver AI](https://github.com/lakshyakumar/ContextWeaver-AI)
+Context-aware AI agent built on LangGraph and PydanticAI. Searches the web, answers queries, builds knowledge bases, and maintains conversational context with token budgeting and dynamic subgraph switching.
+
+### [Knowledge Base AI](https://github.com/lakshyakumar/Knowledge-Base-AI)
+FastAPI-based AI agent that scrapes URIs, answers queries, and creates persistent knowledge bases using LangGraph and PydanticAI.
+
+### [Advanced RAG](https://github.com/lakshyakumar/Advanced-RAG)
+Production AI assistant for document question answering using LangChain and LangGraph. AI rephrases and simplifies queries before vectorized search for improved retrieval accuracy.
+
+### [Awesome LangGraph](https://github.com/lakshyakumar/Awesome-LangGraph)
+Curated learning resource and reference implementations for LangGraph-based agent systems.
+
+### ⛓️ Blockchain & Web3
+
 ### [Hyperledger Bevel](https://github.com/hyperledger/bevel)
 Open-source accelerator for production-ready distributed ledger deployment on Kubernetes. Contributed deployment pipelines for Fabric, Besu, and Quorum.
 
-### [Advanced RAG](https://github.com/lakshyakumar/advanced-rag)
-Production AI assistant for document question answering using LangChain and LangGraph. Built for enterprise knowledge retrieval workflows.
-
-### [Tokenization Platform](https://github.com/lakshyakumar/tokenization-platform)
+### [Tokenization Platform](https://github.com/lakshyakumar/Tokenization-Platform)
 Fund tokenization platform across EVM-compatible and Provenance chains using ERC-1400 — staking, sales, and token contract architecture.
 
-### [ERC-4337 Account Abstraction](https://github.com/lakshyakumar/ERC4337-project)
-Practical implementation of smart contract wallets and account abstraction patterns. Tutorial-grade with production-quality design.
+### [ERC-4337 Account Abstraction](https://github.com/lakshyakumar/Demistifying-Account-Abstraction-A-Step-by-Step-Exploration)
+Step-by-step exploration and practical implementation of smart contract wallets and account abstraction patterns using Solidity.
 
 ### [Wallact](https://github.com/lakshyakumar/wallact)
-Lightweight ethers.js wrapper for cleaner smart contract interaction and improved developer ergonomics.
+Lightweight TypeScript/ethers.js wrapper for cleaner smart contract interaction and improved developer ergonomics. Published to npm.
+
+### 🧰 Developer Tooling & Boilerplates
 
 ### [Turbulent](https://github.com/lakshyakumar/turbulent)
-React and Next.js hook library for blockchain interfaces and wallet-connected applications.
+React and Next.js hook library for blockchain interfaces and wallet-connected applications. Published to npm.
+
+### [Next.js Boilerplate](https://github.com/lakshyakumar/Nextjs-boilerplate)
+Production-ready Next.js + Tailwind + Mongoose starter with authentication, TypeScript, and clean project structure.
+
+### [NestJS Mongoose Boilerplate](https://github.com/lakshyakumar/nestjs-mongoose-boilerplate)
+Enterprise-grade NestJS boilerplate with Mongoose, TypeScript, and modular architecture.
+
+### [LeadPrep](https://github.com/lakshyakumar/leadprep)
+Comprehensive interview preparation roadmap covering system design, data structures, and engineering concepts. Live on GitHub Pages.
 
 ## Writing & Mentoring
 
@@ -69,6 +99,12 @@ I write about hard technical ideas in ways engineering teams can actually use. T
   <img src="https://github-readme-stats.vercel.app/api?username=lakshyakumar&show_icons=true&theme=radical" alt="Lakshya's GitHub stats" />
 </p>
 
+## Certifications
+
+- **AWS Certified Cloud Practitioner** (Amazon Web Services)
+- **Building AI-Powered Search with MongoDB Vector Search** (MongoDB, 2025)
+- **Building RAG Apps Using MongoDB** (MongoDB, 2025)
+
 ## Open To
 
 - Senior engineering, tech lead, and architecture roles in fintech, crypto, AI, and backend systems
@@ -77,6 +113,6 @@ I write about hard technical ideas in ways engineering teams can actually use. T
 
 ## Contact
 
-- LinkedIn: <https://linkedin.com/in/lakshya-kumar>
+- LinkedIn: <https://linkedin.com/in/lakshya-kumar-52735737>
 - Email: <lklsquare@gmail.com>
 - GitHub: <https://github.com/lakshyakumar>
