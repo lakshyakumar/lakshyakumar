@@ -3,7 +3,8 @@
 <p align="center">Bengaluru, India</p>
 
 <p align="center">
-  <a href="https://lakshyakumar.github.io/lakshyakumar/"><img src="https://img.shields.io/badge/Portfolio-%23FF5733.svg?style=for-the-badge&logo=react&logoColor=white" alt="Live Portfolio"/></a>
+  <a href="https://lakshyakumar.github.io/lakshyakumar/"><img src="https://img.shields.io/badge/Portfolio-%23FF5733.svg?style=for-the-badge&logo=react&logoColor=white" alt="Live Portfolio"/></a><br>
+  <a href="https://lakshyakumar.github.io/lakshyakumar/">lakshyakumar.github.io/lakshyakumar</a>
 </p>
 <p align="center">
   <a href="https://linkedin.com/in/lakshya-kumar-52735737"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -119,6 +120,7 @@ I write about hard technical ideas in ways engineering teams can actually use. T
 
 ## Contact
 
+- **Portfolio: [lakshyakumar.github.io/lakshyakumar](https://lakshyakumar.github.io/lakshyakumar/)**
 - LinkedIn: <https://linkedin.com/in/lakshya-kumar-52735737>
 - Email: <lklsquare@gmail.com>
 - GitHub: <https://github.com/lakshyakumar>
