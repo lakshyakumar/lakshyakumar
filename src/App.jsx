@@ -23,6 +23,7 @@ const EXPERIENCE = [
       'Architected fund tokenization platform on EVM & Provenance using <strong>ERC-1400</strong>.',
       'Built enterprise RAG chatbot (LangChain + LangGraph), cutting retrieval latency by <strong>60%</strong>.',
       'CI/CD pipelines on AWS + Kubernetes → <strong>80%+ faster release cycles</strong>, <strong>99.9% uptime</strong>.',
+      'Managed containerized deployment through AWS CodePipelines, using AWS CodeCommit, GitHub Actions, ECR, ECS, CodeBuild, and created the infrastructure using Terraform and CloudFormation.',
       'Designed custodial wallet with multi-sharded key storage & AWS Secrets Manager.',
       'Led and mentored <strong>15+ engineers</strong> across blockchain and AI teams.',
     ],

@@ -47,6 +47,7 @@ Engineering leader with 7+ years of experience delivering production blockchain 
 - Designed custody wallet infrastructure with multi-sharded key storage and AWS Secrets Manager for enterprise-grade key security.
 - Developed blockchain oracles and data pipelines delivering real-time NAV updates to fund management systems.
 - Built CI/CD and deployment pipelines on AWS and Kubernetes, enabling zero-downtime releases and **80%+ reduction in release cycle times**.
+- Managed containerized deployment through AWS CodePipelines, using AWS CodeCommit, GitHub Actions, ECR, ECS, CodeBuild, and created the infrastructure using Terraform and CloudFormation.
 - Implemented SSO across Formidium product suite, improving secure access for clients and internal engineering teams.
 - Designed monitoring, alerting, and failover controls that maintained **99.9% uptime** across all production services.
 - Led and mentored **15+ engineers** across blockchain and AI initiatives, improving delivery velocity and engineering quality.

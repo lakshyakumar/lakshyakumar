@@ -20,6 +20,7 @@ Key outcomes I've delivered: **80%+ faster release cycles**, **99.9% uptime** ac
 
 - **Current role:** Tech Lead (Contract) at Payram — self-hosted crypto payments platform in Go (Oct 2025 – Present)
 - **Previous role:** VP, Web3 & AI Solutions at Formidium (Feb 2024 – Oct 2025)
+  - Managed containerized deployment through AWS CodePipelines, using AWS CodeCommit, GitHub Actions, ECR, ECS, CodeBuild, and created the infrastructure using Terraform and CloudFormation.
 - **Education:** M.Tech in Computational Mathematics, NIT Surathkal
 - **Core strengths:** blockchain architecture, crypto payments, AI/RAG systems, cloud infrastructure, team leadership
 - **Deep interests:** crypto rails, ERC-4337 account abstraction, key custody, ZKPs, MCP tooling, developer productivity
