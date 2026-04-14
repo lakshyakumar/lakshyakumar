@@ -1,5 +1,5 @@
 <h1 align="center">Lakshya Kumar</h1>
-<p align="center"><strong>Tech Lead | Blockchain · AI · Crypto Payments · Cloud Platforms</strong></p>
+<p align="center"><strong>Tech Lead | Senior Fullstack Engineer, AI &amp; Web3 Systems</strong></p>
 <p align="center">Bengaluru, India</p>
 
 <p align="center">
@@ -12,7 +12,7 @@
   <a href="https://github.com/lakshyakumar"><img src="https://img.shields.io/github/followers/lakshyakumar?label=Follow&style=social" alt="GitHub followers"/></a>
 </p>
 
-Engineering leader with 7+ years building production blockchain platforms, AI systems, and cloud-native backend services. I ship reliable systems that survive contact with reality — across EVM ecosystems, tokenization platforms, custodial wallets, AI agents, and crypto payments infrastructure.
+Engineering leader with 7+ years building production backend systems, blockchain platforms, AI systems, and cloud-native distributed services. Deep expertise in ACID/BASE database design, concurrent architecture, event-driven microservices, and blue-green/canary/rolling deployments at scale — across EVM ecosystems, tokenization platforms, custodial wallets, AI agents, and crypto payments infrastructure processing 25,000+ daily transactions.
 
 Key outcomes I've delivered: **80%+ faster release cycles**, **99.9% uptime** across distributed services, **60% reduction in retrieval latency** on AI systems, and teams scaled from 5 to 15+ engineers.
 
@@ -61,6 +61,15 @@ Production AI assistant for document question answering using LangChain and Lang
 ### [Awesome LangGraph](https://github.com/lakshyakumar/Awesome-LangGraph)
 Curated learning resource and reference implementations for LangGraph-based agent systems.
 
+### [Crucible](https://lakshyakumar.github.io/crucible)
+Live web application for structured technical challenges and tooling experiments.
+
+### [TypeScript MCP Server](https://github.com/lakshyakumar/typescript-mcp)
+MCP server implementation in TypeScript for structured AI tool delivery and context management.
+
+### [Filmy Agent](https://github.com/lakshyakumar/filmy_agent)
+AI agent for movie discovery, recommendations, and knowledge retrieval workflows.
+
 ### ⛓️ Blockchain & Web3
 
 ### [Hyperledger Bevel](https://github.com/hyperledger/bevel)
@@ -72,12 +81,12 @@ Fund tokenization platform across EVM-compatible and Provenance chains using ERC
 ### [ERC-4337 Account Abstraction](https://github.com/lakshyakumar/Demistifying-Account-Abstraction-A-Step-by-Step-Exploration)
 Step-by-step exploration and practical implementation of smart contract wallets and account abstraction patterns using Solidity.
 
-### [Wallact](https://github.com/lakshyakumar/wallact)
+### [Wallact](https://github.com/lakshyakumar/wallact) · [npm](https://www.npmjs.com/package/wallact)
 Lightweight TypeScript/ethers.js wrapper for cleaner smart contract interaction and improved developer ergonomics. Published to npm.
 
 ### 🧰 Developer Tooling & Boilerplates
 
-### [Turbulent](https://github.com/lakshyakumar/turbulent)
+### [Turbulent](https://github.com/lakshyakumar/turbulent) · [npm](https://www.npmjs.com/package/turbulent)
 React and Next.js hook library for blockchain interfaces and wallet-connected applications. Published to npm.
 
 ### [Next.js Boilerplate](https://github.com/lakshyakumar/Nextjs-boilerplate)

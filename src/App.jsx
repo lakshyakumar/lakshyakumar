@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect } from 'react'
 import './index.css'
 
 // ── Data ────────────────────────────────────────────────────────────────────
@@ -12,7 +12,10 @@ const EXPERIENCE = [
     bullets: [
       'Leading development of a self-hosted crypto payments platform in <strong>Go</strong>.',
       'Built production wallet & payments app supporting live stablecoin transaction execution.',
-      'Architected API-driven settlement workflows with production-grade reliability.',
+      'Implemented event-driven push/pull queues and cron scheduling → consistent <strong>sub-second dispatch times</strong>.',
+      'Built horizontally scalable worker pools to absorb concurrent payment spikes without latency degradation.',
+      'Deployed rate-limited API gateways with <strong>blue-green deployments</strong> — zero-downtime releases.',
+      'Designed event-based pull queues for async settlement, improving end-to-end throughput under peak load.',
     ],
   },
   {
@@ -20,10 +23,12 @@ const EXPERIENCE = [
     company: 'Formidium',
     date: 'Feb 2024 – Oct 2025',
     bullets: [
-      'Architected fund tokenization platform on EVM & Provenance using <strong>ERC-1400</strong>.',
+      'Architected fund tokenization platform on EVM & Provenance using <strong>ERC-1400</strong> with ACID-compliant transactions and BASE-aligned distributed state.',
       'Built enterprise RAG chatbot (LangChain + LangGraph), cutting retrieval latency by <strong>60%</strong>.',
-      'CI/CD pipelines on AWS + Kubernetes → <strong>80%+ faster release cycles</strong>, <strong>99.9% uptime</strong>.',
-      'Managed containerized deployment through AWS CodePipelines, using AWS CodeCommit, GitHub Actions, ECR, ECS, CodeBuild, and created the infrastructure using Terraform and CloudFormation.',
+      'Event-driven push queue data pipelines decoupling on-chain events — <strong>reduced data lag from minutes to seconds</strong>.',
+      'Blue-green + canary CI/CD on AWS + Kubernetes with SOLID principles → <strong>80%+ faster release cycles</strong>, <strong>99.9% uptime</strong>.',
+      'Managed containerized deployment through AWS CodePipelines, ECR, ECS, CodeBuild, Terraform, and CloudFormation.',
+      'Implemented database concurrency controls and connection pooling for high-concurrency workloads.',
       'Designed custodial wallet with multi-sharded key storage & AWS Secrets Manager.',
       'Led and mentored <strong>15+ engineers</strong> across blockchain and AI teams.',
     ],
@@ -35,6 +40,8 @@ const EXPERIENCE = [
     bullets: [
       'Built custodial wallet platform with Web2-style onboarding and automated key generation.',
       'Implemented ERC-4337 smart contract wallets and cross-chain token bridge (Besu ↔ Avalanche).',
+      'Deployed with blue-green + rolling strategies, load-balanced across AZs, rate limiting at the API gateway.',
+      'Improved resilience with horizontal scaling and automatic failover for wallet, bridge, and indexing services.',
       'Mentored <strong>5 developers</strong>, delivered all modules on a 6-month timeline.',
     ],
   },
@@ -43,7 +50,8 @@ const EXPERIENCE = [
     company: 'Quadrant.io',
     date: 'Dec 2021 – Mar 2023',
     bullets: [
-      'Architected blockchain platform processing <strong>25,000+ daily transactions</strong> across Polygon & Ethereum.',
+      'Architected blockchain platform processing <strong>25,000+ daily transactions</strong> across Polygon & Ethereum using message queues and Go channels — <strong>sub-second processing times</strong>.',
+      'Built distributed database architecture with multi-region data consistency for resilient transaction state.',
       'Designed tokenomics and NFT-based incentive systems for the eQUAD ecosystem.',
       'Built private EVM chain with full-node infrastructure, bridge, and explorer.',
     ],
@@ -104,6 +112,27 @@ const PROJECTS = {
       desc: 'Production RAG assistant with AI-rephrased query preprocessing before vectorized search.',
       tags: [['LangChain', 'blue'], ['LangGraph', 'purple'], ['Python', 'cyan']],
       url: 'https://github.com/lakshyakumar/Advanced-RAG',
+    },
+    {
+      icon: '🔥',
+      name: 'Crucible',
+      desc: 'Structured technical challenge and tooling experiments platform. Live on GitHub Pages.',
+      tags: [['TypeScript', 'blue'], ['GitHub Pages', 'green'], ['Tooling', 'cyan']],
+      url: 'https://lakshyakumar.github.io/crucible',
+    },
+    {
+      icon: '🛠️',
+      name: 'TypeScript MCP Server',
+      desc: 'MCP server in TypeScript for structured AI tool delivery, semantic context, and execution workflows.',
+      tags: [['MCP', 'blue'], ['TypeScript', 'cyan'], ['AI Agents', 'purple']],
+      url: 'https://github.com/lakshyakumar/typescript-mcp',
+    },
+    {
+      icon: '🎬',
+      name: 'Filmy Agent',
+      desc: 'AI agent for movie discovery, recommendations, and knowledge retrieval workflows.',
+      tags: [['AI Agents', 'purple'], ['Python', 'cyan'], ['RAG', 'blue']],
+      url: 'https://github.com/lakshyakumar/filmy_agent',
     },
   ],
   blockchain: [
@@ -225,12 +254,14 @@ function Hero() {
         </div>
         <h1 className="hero-name">Lakshya Kumar</h1>
         <p className="hero-title">
-          Tech Lead · <span>Blockchain</span> · AI · Crypto Payments
+          Tech Lead · <span>Senior Fullstack Engineer</span> · AI &amp; Web3 Systems
         </p>
         <p className="hero-summary">
-          Engineering leader with 7+ years building production blockchain platforms, AI systems, and
-          cloud-native backends. I ship reliable systems across EVM ecosystems, tokenization platforms,
-          custodial wallets, AI agents, and crypto payments infrastructure.
+          Engineering leader with 7+ years building production backend systems, blockchain platforms,
+          AI systems, and cloud-native distributed services. Deep expertise in concurrent architecture,
+          event-driven microservices, and blue-green/canary deployments — processing 25,000+ daily
+          transactions across EVM ecosystems, tokenization platforms, custodial wallets, and crypto
+          payments infrastructure.
         </p>
         <div className="hero-stats">
           <div className="stat-item">

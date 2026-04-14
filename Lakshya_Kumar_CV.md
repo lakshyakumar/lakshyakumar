@@ -1,14 +1,14 @@
 # LAKSHYA KUMAR
-**Tech Lead | Blockchain, AI, Cloud Platforms**
+**Tech Lead | Senior Fullstack Engineer, AI & Web3 Systems**
 
-Bengaluru, India | +91-9008791697 | lklsquare@gmail.com
-LinkedIn: https://www.linkedin.com/in/lakshya-kumar-52735737/ | GitHub: github.com/lakshyakumar
+HSR Sector 5, Bengaluru, Karnataka 560102 | +91-9008791697 | lklsquare@gmail.com
+[LinkedIn](https://www.linkedin.com/in/lakshya-kumar-52735737/) | [GitHub](https://github.com/lakshyakumar)
 
 ---
 
 ## PROFESSIONAL SUMMARY
 
-Engineering leader with 7+ years of experience delivering production blockchain platforms, AI systems, and cloud-native backend services. Expertise spans EVM ecosystems, Provenance Blockchain, fund tokenization, custodial wallets, ERC-4337 account abstraction, RAG-based AI systems, MCP-compatible AI tooling, and self-hosted crypto payments infrastructure. Proven track record: reduced release cycles by 80%+, maintained 99.9% uptime, cut AI retrieval latency by 60%, and led cross-functional teams of 5 to 15+ engineers across fintech, enterprise, and open-source environments. Adept at owning full delivery cycles — from architecture through production rollout.
+Engineering leader with 7+ years of experience delivering production backend systems, blockchain platforms, AI systems, and cloud-native distributed services. Deep expertise in ACID/BASE database design, concurrent architecture, event-driven microservices, and blue-green/canary/rolling deployment strategies at scale. Expertise spans EVM ecosystems, Provenance Blockchain, fund tokenization, custodial wallets, ERC-4337 account abstraction, RAG-based AI systems, MCP-compatible AI tooling, and self-hosted crypto payments infrastructure — processing 25,000+ daily transactions in production. Proven track record: reduced release cycles by 80%+, maintained 99.9% uptime, cut AI retrieval latency by 60%, and led cross-functional teams of 5 to 15+ engineers across fintech, enterprise, and open-source environments. Adept at owning full delivery cycles — from architecture through production rollout.
 
 ---
 
@@ -36,18 +36,21 @@ Engineering leader with 7+ years of experience delivering production blockchain 
 
 - Led development of a self-hosted crypto payments platform in Go for merchant-managed payment infrastructure.
 - Built and launched a production wallet and payments application supporting live stablecoin transaction execution.
-- Designed backend systems for stablecoin and crypto transaction processing with production-grade reliability.
-- Architected API-driven payment workflows for faster settlement and cleaner service integration.
+- Implemented event-driven push/pull queues and cron scheduling for payment dispatch, achieving consistent sub-second dispatch times.
+- Built horizontally scalable worker pools to absorb concurrent payment spikes without latency degradation.
+- Deployed rate-limited API gateways with blue-green deployment strategies, enabling zero-downtime releases.
+- Designed event-based pull queues for async settlement processing, improving end-to-end throughput under peak load.
 - Owned full delivery cycle: architecture, implementation, deployment, and production rollout as sole contract Tech Lead.
 
 ### VP, Web3 & AI Solutions | Formidium | Feb 2024 – Oct 2025
 
-- Architected and scaled a fund tokenization platform on EVM and Provenance Blockchain using ERC-1400 security token standards.
+- Architected and scaled a fund tokenization platform on EVM and Provenance Blockchain using ERC-1400 security token standards, with ACID-compliant transaction handling and BASE-aligned distributed state across chains.
 - Built an enterprise RAG chatbot with Python, LangChain, LangGraph, and Next.js, **reducing document retrieval latency by 60%**.
 - Designed custody wallet infrastructure with multi-sharded key storage and AWS Secrets Manager for enterprise-grade key security.
-- Developed blockchain oracles and data pipelines delivering real-time NAV updates to fund management systems.
-- Built CI/CD and deployment pipelines on AWS and Kubernetes, enabling zero-downtime releases and **80%+ reduction in release cycle times**.
+- Developed blockchain oracles and event-driven push queue data pipelines delivering real-time NAV updates, decoupling on-chain events from downstream consumers and **reducing data lag from minutes to seconds**.
+- Built CI/CD pipelines with blue-green and canary deployment strategies on AWS and Kubernetes, applying SOLID principles across services and enabling **80%+ reduction in release cycle times** with zero-downtime releases.
 - Managed containerized deployment through AWS CodePipelines, using AWS CodeCommit, GitHub Actions, ECR, ECS, CodeBuild, and created the infrastructure using Terraform and CloudFormation.
+- Implemented database concurrency controls and connection pooling to maintain throughput under high-concurrency workloads.
 - Implemented SSO across Formidium product suite, improving secure access for clients and internal engineering teams.
 - Designed monitoring, alerting, and failover controls that maintained **99.9% uptime** across all production services.
 - Led and mentored **15+ engineers** across blockchain and AI initiatives, improving delivery velocity and engineering quality.
@@ -59,13 +62,14 @@ Engineering leader with 7+ years of experience delivering production blockchain 
 - Led banking-client onboarding to a private EVM chain using Avalanche and Hyperledger Besu.
 - Implemented smart contract wallets using ERC-4337 and Account Abstraction for programmable transaction logic.
 - Built a blockchain indexer and token bridge for cross-chain asset transfers between Besu and Avalanche.
-- Deployed production services on AWS (VMs, ECS, S3) with CI/CD pipelines via GitHub Actions.
-- Improved resilience and scalability of wallet, bridge, and indexing services for peak transaction loads.
+- Deployed production services on AWS (VMs, ECS, S3) with CI/CD pipelines via GitHub Actions using blue-green and rolling deployment strategies, load-balanced across availability zones with rate limiting at the API gateway.
+- Improved resilience and horizontal scaling with automatic failover for wallet, bridge, and indexing services under peak transaction loads.
 - Mentored a team of **5 developers** and delivered all backend and blockchain modules within a 6-month timeline.
 
 ### Blockchain Lead | Quadrant.io | Dec 2021 – Mar 2023
 
-- Architected a blockchain platform processing **25,000+ daily transactions** across Polygon and Ethereum.
+- Architected a blockchain platform processing **25,000+ daily transactions** across Polygon and Ethereum using message queues and Go channels for async event passing, achieving sub-second processing times.
+- Built distributed database architecture with multi-region data consistency for resilient transaction state management.
 - Designed tokenomics and NFT-based incentive systems for the eQUAD token ecosystem.
 - Engineered transaction monitoring, retry logic, and failure-recovery workflows for production-grade reliability.
 - Developed and managed a private EVM chain with full-node infrastructure, bridge, explorer, and public APIs.
@@ -122,10 +126,16 @@ GitHub: github.com/lakshyakumar/Advanced-RAG
 
 **AI Developer Tooling / MCP Server Infrastructure** — MCP-compatible tooling for structured context delivery, semantic search, AI memory access, and execution workflows.
 
+**Crucible** — [lakshyakumar.github.io/crucible](https://lakshyakumar.github.io/crucible)
+
+**TypeScript MCP Server** — [github.com/lakshyakumar/typescript-mcp](https://github.com/lakshyakumar/typescript-mcp)
+
+**Filmy Agent** — [github.com/lakshyakumar/filmy_agent](https://github.com/lakshyakumar/filmy_agent)
+
 ### Blockchain & Web3
 
 **Hyperledger Bevel** — Open-source accelerator for production-ready distributed ledger deployment on Kubernetes. Active contributor and committer.
-GitHub: github.com/hyperledger/bevel
+GitHub: [github.com/hyperledger/bevel](https://github.com/hyperledger/bevel)
 
 **Fund Tokenization Platform** — Staking, sales, and token contracts across EVM-compatible and Provenance chains using ERC-1400 security token standards.
 GitHub: github.com/lakshyakumar/Tokenization-Platform
@@ -139,16 +149,22 @@ GitHub: github.com/lakshyakumar/wallact
 ### Developer Tooling & Libraries
 
 **Turbulent** — React and Next.js hook library for blockchain interfaces and wallet-connected applications. Published on npm.
-GitHub: github.com/lakshyakumar/turbulent
+GitHub: [github.com/lakshyakumar/turbulent](https://github.com/lakshyakumar/turbulent) | npm: [npmjs.com/package/turbulent](https://www.npmjs.com/package/turbulent)
+
+**Wallact** — TypeScript/ethers.js wrapper for simplified smart contract interaction. Published on npm.
+GitHub: [github.com/lakshyakumar/wallact](https://github.com/lakshyakumar/wallact) | npm: [npmjs.com/package/wallact](https://www.npmjs.com/package/wallact)
+
+**XlToDb** — Excel-to-database migration tool. Published on npm.
+npm: [npmjs.com/package/xltodb](https://www.npmjs.com/package/xltodb)
 
 **Next.js Boilerplate** — Production-ready Next.js + Tailwind + Mongoose starter with authentication and TypeScript.
-GitHub: github.com/lakshyakumar/Nextjs-boilerplate
+GitHub: [github.com/lakshyakumar/Nextjs-boilerplate](https://github.com/lakshyakumar/Nextjs-boilerplate)
 
 **NestJS Mongoose Boilerplate** — Enterprise NestJS boilerplate with Mongoose, TypeScript, and modular architecture.
-GitHub: github.com/lakshyakumar/nestjs-mongoose-boilerplate
+GitHub: [github.com/lakshyakumar/nestjs-mongoose-boilerplate](https://github.com/lakshyakumar/nestjs-mongoose-boilerplate)
 
 **LeadPrep** — Comprehensive interview preparation roadmap covering system design, algorithms, and engineering concepts. Live on GitHub Pages.
-GitHub: github.com/lakshyakumar/leadprep
+GitHub: [github.com/lakshyakumar/leadprep](https://github.com/lakshyakumar/leadprep)
 
 ---
 
@@ -156,7 +172,7 @@ GitHub: github.com/lakshyakumar/leadprep
 
 **M.Tech in Computational Mathematics** | NIT Surathkal, Karnataka | Jul 2016 – Jun 2018 | CGPA: 8.39
 
-**B.Tech in Computer Science** | Delhi Technological University, Delhi | Jul 2011 – Jun 2015
+**B.Tech in Computer Science** | Delhi Technological University, Delhi | Aug 2011 – Jun 2015
 
 ---
 
@@ -172,4 +188,4 @@ GitHub: github.com/lakshyakumar/leadprep
 
 - Author of technical articles on account abstraction, AI tooling, vector search, blockchain systems, and developer tools.
 - Active contributor to open-source blockchain and developer tooling ecosystems (Hyperledger Bevel, Hyperledger Labs).
-- Maintainer of published npm packages: Wallact, Turbulent, Enthalpy, XlToDb.
+- Maintainer of published npm packages: [Turbulent](https://www.npmjs.com/package/turbulent), [Wallact](https://www.npmjs.com/package/wallact), [XlToDb](https://www.npmjs.com/package/xltodb).
