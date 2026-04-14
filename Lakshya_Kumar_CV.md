@@ -8,7 +8,7 @@ HSR Sector 5, Bengaluru, Karnataka 560102 | +91-9008791697 | lklsquare@gmail.com
 
 ## PROFESSIONAL SUMMARY
 
-Engineering leader with 7+ years of experience delivering production backend systems, blockchain platforms, AI systems, and cloud-native distributed services. Deep expertise in ACID/BASE database design, concurrent architecture, event-driven microservices, and blue-green/canary/rolling deployment strategies at scale. Expertise spans EVM ecosystems, Provenance Blockchain, fund tokenization, custodial wallets, ERC-4337 account abstraction, RAG-based AI systems, MCP-compatible AI tooling, and self-hosted crypto payments infrastructure — processing 25,000+ daily transactions in production. Proven track record: reduced release cycles by 80%+, maintained 99.9% uptime, cut AI retrieval latency by 60%, and led cross-functional teams of 5 to 15+ engineers across fintech, enterprise, and open-source environments. Adept at owning full delivery cycles — from architecture through production rollout.
+Tech Lead and senior fullstack engineer with 7+ years of experience building high-throughput, scalable production systems across AI, cloud-native services, and Web3 platforms. Deep expertise in distributed systems, concurrent architecture, ACID/BASE database design, and zero-downtime deployment strategies including blue-green, canary, and rolling releases. Proven track record delivering systems that scale to 25,000+ daily transactions, reducing release cycles by 80%+, maintaining 99.9% uptime, and leading teams of 5 to 15+ engineers across fintech, enterprise, and open-source environments.
 
 ---
 
@@ -16,17 +16,17 @@ Engineering leader with 7+ years of experience delivering production backend sys
 
 **Languages:** JavaScript, TypeScript, Python, Go, Solidity, Rust
 
-**Backend & Frameworks:** Node.js, NestJS, React, Next.js, FastAPI, REST APIs, Microservices, LangChain, LangGraph, CrewAI, PydanticAI
+**Backend:** Node.js, REST APIs, Microservices, LangChain, LangGraph, CrewAI, PydanticAI
 
-**Blockchain:** EVM, Provenance Blockchain, Hyperledger Fabric, Hyperledger Besu, Polygon, Avalanche, ERC-1400, ERC-4337, Account Abstraction, Smart Contract Wallets, Fund Tokenization, Cross-chain Bridges
+**Blockchain:** EVM, Provenance, Hyperledger Fabric/Besu, Polygon, Avalanche, ERC-1400, ERC-4337, Account Abstraction, Fund Tokenization, Cross-chain Bridges
 
-**AI & Agent Systems:** Retrieval-Augmented Generation (RAG), Semantic Search, Vector Databases, AI Memory Systems, Model Context Protocol (MCP), MCP Servers, AI Tool Orchestration, Context Management, Knowledge Base Construction
+**AI & Agents:** RAG, Semantic Search, Vector Databases, AI Memory Systems, MCP Servers, Tool Orchestration, Context Management
 
-**Cloud & DevOps:** AWS (ECS, EC2, Lambda, S3, ECR, CodeBuild, CodePipeline), Docker, Kubernetes, CI/CD, GitHub Actions, Jenkins, GitOps
+**Cloud & DevOps:** AWS (ECS, EC2, Lambda, S3, ECR, CodePipeline), Docker, Kubernetes, GitHub Actions, Jenkins, GitOps
 
-**Reliability & Scalability:** High-throughput distributed systems, Horizontal scaling, Zero-downtime deployments, Failover design, Retry mechanisms, Fault tolerance, Monitoring, Alerting
+**Scalability:** High-throughput distributed systems, Horizontal scaling, Zero-downtime deploys, Blue-green/Canary/Rolling strategies, Event-driven push/pull queues, Concurrent workers & crons, ACID/BASE, Distributed DBs, Connection pooling
 
-**Leadership:** Technical Architecture, Team Leadership, Mentorship, Cross-functional Collaboration, Delivery Management
+**Leadership:** Technical Architecture, Team Lead (15+ engineers), Mentorship, Delivery Management
 
 ---
 
@@ -34,74 +34,72 @@ Engineering leader with 7+ years of experience delivering production backend sys
 
 ### Tech Lead (Contract) | Payram | Oct 2025 – Present
 
-- Led development of a self-hosted crypto payments platform in Go for merchant-managed payment infrastructure.
-- Built and launched a production wallet and payments application supporting live stablecoin transaction execution.
-- Implemented event-driven push/pull queues and cron scheduling for payment dispatch, achieving consistent sub-second dispatch times.
-- Built horizontally scalable worker pools to absorb concurrent payment spikes without latency degradation.
-- Deployed rate-limited API gateways with blue-green deployment strategies, enabling zero-downtime releases.
-- Designed event-based pull queues for async settlement processing, improving end-to-end throughput under peak load.
-- Owned full delivery cycle: architecture, implementation, deployment, and production rollout as sole contract Tech Lead.
+- Architected a self-hosted crypto payments platform in Go with event-driven push/pull queues, concurrent workers, and cron-based job scheduling — enabling the platform to process transactions with zero manual intervention and consistent sub-second dispatch times.
+- Built and launched a production wallet and payments application with horizontally scalable worker pools, allowing the system to absorb concurrent payment spikes without latency degradation across multiple merchant accounts.
+- Designed rate-limited API gateways and blue-green deployment pipelines, achieving zero-downtime releases and enabling rapid iteration without service interruption.
+- Implemented event-based pull queues for async settlement dispatch, decoupling payment initiation from settlement and improving end-to-end throughput consistency under peak load.
+- Engineered robust error handling, retry logic, and idempotency guarantees across payment flows, ensuring no double-spend or missed settlement under failure conditions.
+- Owned full lifecycle — architecture, implementation, deployment, and production rollout — as sole contract Tech Lead.
 
 ### VP, Web3 & AI Solutions | Formidium | Feb 2024 – Oct 2025
 
-- Architected and scaled a fund tokenization platform on EVM and Provenance Blockchain using ERC-1400 security token standards, with ACID-compliant transaction handling and BASE-aligned distributed state across chains.
-- Built an enterprise RAG chatbot with Python, LangChain, LangGraph, and Next.js, **reducing document retrieval latency by 60%**.
-- Designed custody wallet infrastructure with multi-sharded key storage and AWS Secrets Manager for enterprise-grade key security.
-- Developed blockchain oracles and event-driven push queue data pipelines delivering real-time NAV updates, decoupling on-chain events from downstream consumers and **reducing data lag from minutes to seconds**.
-- Built CI/CD pipelines with blue-green and canary deployment strategies on AWS and Kubernetes, applying SOLID principles across services and enabling **80%+ reduction in release cycle times** with zero-downtime releases.
+- Architected and scaled a fund tokenization platform on EVM and Provenance Blockchain using ERC-1400, with ACID-compliant database transactions for financial ledger consistency and BASE-aligned distributed state for on-chain sync — supporting institutional-grade fund operations.
+- Built an enterprise RAG chatbot with Python, LangChain, LangGraph, and Next.js, reducing document retrieval latency by **60%** and cutting analyst research time significantly across the fund management workflow.
+- Architected custody wallet infrastructure with multi-sharded key storage and AWS Secrets Manager, eliminating single points of failure in enterprise key management.
+- Developed blockchain oracles and event-driven data pipelines with push queues, delivering real-time NAV updates to fund systems and decoupling on-chain events from downstream consumers — **reducing data lag from minutes to seconds**.
+- Built CI/CD pipelines on AWS and Kubernetes with blue-green and canary strategies, applying SOLID design principles across services and **cutting delivery cycles by 80%+** while maintaining **99.9% uptime** across 5+ production services.
 - Managed containerized deployment through AWS CodePipelines, using AWS CodeCommit, GitHub Actions, ECR, ECS, CodeBuild, and created the infrastructure using Terraform and CloudFormation.
-- Implemented database concurrency controls and connection pooling to maintain throughput under high-concurrency workloads.
-- Implemented SSO across Formidium product suite, improving secure access for clients and internal engineering teams.
-- Designed monitoring, alerting, and failover controls that maintained **99.9% uptime** across all production services.
-- Led and mentored **15+ engineers** across blockchain and AI initiatives, improving delivery velocity and engineering quality.
+- Implemented SSO across the Formidium product suite, improving secure access for clients and internal engineering teams.
+- Designed monitoring, alerting, and failover controls with database concurrency controls and connection pooling to handle high-throughput read/write workloads — sustaining **99.9% uptime** across all distributed services.
 - Built MCP-compatible AI tooling patterns for enterprise knowledge retrieval and developer productivity workflows.
+- Led and mentored **15+ engineers** across blockchain and AI initiatives, improving delivery velocity, code quality, and cross-team coordination.
 
 ### Backend Engineer | Xalts | Apr 2023 – Dec 2023
 
-- Developed a custodial wallet platform with Web2-style onboarding and automated private key generation.
-- Led banking-client onboarding to a private EVM chain using Avalanche and Hyperledger Besu.
-- Implemented smart contract wallets using ERC-4337 and Account Abstraction for programmable transaction logic.
-- Built a blockchain indexer and token bridge for cross-chain asset transfers between Besu and Avalanche.
-- Deployed production services on AWS (VMs, ECS, S3) with CI/CD pipelines via GitHub Actions using blue-green and rolling deployment strategies, load-balanced across availability zones with rate limiting at the API gateway.
-- Improved resilience and horizontal scaling with automatic failover for wallet, bridge, and indexing services under peak transaction loads.
+- Developed a custodial wallet platform with Web2-style onboarding and automated private key generation, enabling banking clients to onboard to a private EVM chain using Avalanche and Hyperledger Besu without friction.
+- Implemented smart contract wallets using ERC-4337 and Account Abstraction, enabling programmable transaction flows and policy enforcement for enterprise clients.
+- Built a blockchain indexer and token bridge for cross-chain asset transfers between Besu and Avalanche, reducing cross-chain settlement time significantly and enabling seamless interoperability.
+- Deployed production services on AWS (VMs, ECS, S3) using blue-green and rolling deployment strategies, load-balanced across availability zones with rate limiting at the API gateway — achieving high availability under peak transaction loads.
+- Engineered horizontally scalable wallet, bridge, and indexing services with automatic failover and retry logic, sustaining consistent performance under spike conditions.
+- Contributed to system design decisions across backend, blockchain, and infrastructure layers, influencing the overall platform architecture.
 - Mentored a team of **5 developers** and delivered all backend and blockchain modules within a 6-month timeline.
 
 ### Blockchain Lead | Quadrant.io | Dec 2021 – Mar 2023
 
-- Architected a blockchain platform processing **25,000+ daily transactions** across Polygon and Ethereum using message queues and Go channels for async event passing, achieving sub-second processing times.
-- Built distributed database architecture with multi-region data consistency for resilient transaction state management.
-- Designed tokenomics and NFT-based incentive systems for the eQUAD token ecosystem.
-- Engineered transaction monitoring, retry logic, and failure-recovery workflows for production-grade reliability.
-- Developed and managed a private EVM chain with full-node infrastructure, bridge, explorer, and public APIs.
-- Deployed microservices on AWS Lambda and serverless infrastructure for elastic horizontal scaling.
-- Led a **5-member engineering team** across multiple blockchain applications and concurrent releases.
+- Architected a blockchain platform sustaining **25,000+ daily transactions** across Polygon and Ethereum with no data loss or unplanned downtime.
+- Engineered concurrent transaction processing using message queues and Go channels for async event passing with retry and failure-recovery workflows — sustaining high throughput with sub-second processing times reliably.
+- Developed a private EVM chain with distributed database architecture, multi-region data consistency, full-node infrastructure, a blockchain explorer, cross-chain bridge, and public APIs — forming the core of the eQUAD ecosystem.
+- Designed tokenomics and NFT-based incentive systems for the eQUAD token, driving on-chain user engagement and aligning token utility with platform growth.
+- Engineered transaction monitoring, retry mechanisms, and failure-recovery systems to guarantee finality and prevent silent failures across high-volume pipelines.
+- Deployed microservices on AWS Lambda for elastic horizontal scaling, reducing infrastructure costs while maintaining consistent throughput under variable load.
+- Led a **5-member engineering team** across multiple concurrent blockchain applications and production releases.
 
 ### Concept Engineer | Everledger | Feb 2021 – Oct 2021
 
-- Designed provenance and traceability widgets in React for diamond authenticity verification on production platforms.
-- Integrated track-and-trace APIs with WeChat for the Chinese consumer market.
-- Extended Hyperledger Fabric architecture for China-specific deployment and regulatory compliance requirements.
-- Built a proof-of-concept migration from Hyperledger Fabric to Besu for EVM interoperability.
-- Integrated blockchain traceability features into client-facing production applications.
+- Designed provenance and traceability widgets in React for diamond authenticity verification, integrated into client-facing production applications used by industry stakeholders globally.
+- Integrated track-and-trace APIs with WeChat for the Chinese consumer market, expanding platform reach to a new geography and enabling region-specific product experiences.
+- Extended Hyperledger Fabric architecture for China-specific deployment and regulatory compliance requirements, working within strict data localisation and audit constraints.
+- Built a proof-of-concept migration from Hyperledger Fabric to Hyperledger Besu, demonstrating EVM interoperability and informing the team's future chain strategy.
+- Collaborated cross-functionally with product and design teams to integrate blockchain traceability into intuitive consumer-facing experiences.
 
 ### Software Engineer | Accenture | Sep 2018 – Jan 2021
 
-- Contributed to **Hyperledger Bevel**, an open-source framework for enterprise blockchain deployment on Kubernetes.
-- Engineered deployment pipelines for Hyperledger Fabric, Hyperledger Besu, and JP Morgan Quorum.
-- Implemented CI/CD and GitOps workflows using Jenkins and Travis CI for enterprise blockchain delivery pipelines.
-- Contributed internal blockchain solutions to Hyperledger Labs and the broader open-source ecosystem.
-- Developed APIs and scalable infrastructure using Ripple and Hyperledger technologies on Kubernetes.
+- Contributed to **[Hyperledger Bevel](https://github.com/hyperledger/bevel)**, an open-source framework for production-ready blockchain deployment on Kubernetes — now widely adopted across enterprise deployments globally.
+- Engineered deployment pipelines for Hyperledger Fabric, Hyperledger Besu, and JP Morgan Quorum, enabling repeatable, auditable enterprise blockchain provisioning at scale.
+- Implemented CI/CD and GitOps workflows using Jenkins and Travis CI for enterprise blockchain delivery pipelines, reducing manual deployment effort and improving release consistency.
+- Contributed internal blockchain solutions to Hyperledger Labs and the broader open-source ecosystem, accelerating community tooling for distributed ledger adoption.
+- Developed APIs and scalable infrastructure using Ripple and Hyperledger technologies on Kubernetes, supporting cross-border payment and settlement use cases for financial clients.
 
 ---
 
 ## KEY ACHIEVEMENTS
 
-- Reduced deployment release cycles by **80%+** through CI/CD pipeline modernization on AWS and Kubernetes
-- Maintained **99.9% uptime** across distributed production services through monitoring, alerting, and failover design
+- Reduced deployment release cycles by **80%+** through CI/CD pipeline modernization with blue-green and canary strategies on AWS and Kubernetes
+- Maintained **99.9% uptime** across distributed production services through monitoring, alerting, failover design, and connection pooling
 - Decreased AI document retrieval latency by **60%** via optimized RAG architecture with LangChain and LangGraph
-- Scaled a blockchain platform to **25,000+ daily transactions** across Polygon and Ethereum
+- Scaled a blockchain platform to **25,000+ daily transactions** across Polygon and Ethereum with sub-second processing times
 - Led and delivered blockchain and AI projects with teams of **5 to 15+ engineers** across multiple organizations
-- Contributed to open-source tooling with active use across the blockchain developer community
+- Reduced on-chain data pipeline lag **from minutes to seconds** through event-driven push queue architecture
 
 ---
 
@@ -110,41 +108,41 @@ Engineering leader with 7+ years of experience delivering production backend sys
 ### AI & Agent Systems
 
 **RepoMind** — Repository Intelligence MCP server for coding agents. Provides structured codebase context and semantic search for AI-assisted development.
-GitHub: github.com/lakshyakumar/repomind
+GitHub: [github.com/lakshyakumar/repomind](https://github.com/lakshyakumar/repomind)
 
-**Prism Canvas** — Full-spectrum market intelligence Claude Skill for founders. Lean Canvas extended with competitor analysis and validation frameworks. Active use in the Claude skills ecosystem.
-GitHub: github.com/lakshyakumar/prism-canvas
+**Prism Canvas** — Full-spectrum market intelligence Claude Skill for founders. Lean Canvas extended with competitor analysis and validation frameworks.
+GitHub: [github.com/lakshyakumar/prism-canvas](https://github.com/lakshyakumar/prism-canvas)
 
 **ContextWeaver AI** — Context-aware AI agent using LangGraph and PydanticAI. Web search, knowledge base construction, token budgeting, and dynamic subgraph switching.
-GitHub: github.com/lakshyakumar/ContextWeaver-AI
+GitHub: [github.com/lakshyakumar/ContextWeaver-AI](https://github.com/lakshyakumar/ContextWeaver-AI)
 
 **Knowledge Base AI** — FastAPI-based AI agent that scrapes URIs, answers queries, and creates persistent knowledge bases using LangGraph and PydanticAI.
-GitHub: github.com/lakshyakumar/Knowledge-Base-AI
+GitHub: [github.com/lakshyakumar/Knowledge-Base-AI](https://github.com/lakshyakumar/Knowledge-Base-AI)
 
-**Advanced RAG Assistant** — Production AI assistant with AI-rephrased query preprocessing before vectorized search. Built with LangChain and LangGraph.
-GitHub: github.com/lakshyakumar/Advanced-RAG
+**Advanced RAG Assistant** — Production AI assistant with AI-rephrased query preprocessing before vectorized search, reducing retrieval time by 60%. Built with LangChain and LangGraph.
+GitHub: [github.com/lakshyakumar/Advanced-RAG](https://github.com/lakshyakumar/Advanced-RAG)
+
+**TypeScript MCP Server** — Production-grade MCP server in TypeScript via JSON-RPC 2.0, modular and scalable for AI tool delivery and context management.
+GitHub: [github.com/lakshyakumar/typescript-mcp](https://github.com/lakshyakumar/typescript-mcp)
+
+**Filmy Agent** — Rust-based AI agent for generating cinematic prompts for images and video.
+GitHub: [github.com/lakshyakumar/filmy_agent](https://github.com/lakshyakumar/filmy_agent)
+
+**Crucible** — 100-challenge mastery platform across AI, Blockchain, Scalable Systems & Concurrency.
+Live: [lakshyakumar.github.io/crucible](https://lakshyakumar.github.io/crucible)
 
 **AI Developer Tooling / MCP Server Infrastructure** — MCP-compatible tooling for structured context delivery, semantic search, AI memory access, and execution workflows.
-
-**Crucible** — [lakshyakumar.github.io/crucible](https://lakshyakumar.github.io/crucible)
-
-**TypeScript MCP Server** — [github.com/lakshyakumar/typescript-mcp](https://github.com/lakshyakumar/typescript-mcp)
-
-**Filmy Agent** — [github.com/lakshyakumar/filmy_agent](https://github.com/lakshyakumar/filmy_agent)
 
 ### Blockchain & Web3
 
 **Hyperledger Bevel** — Open-source accelerator for production-ready distributed ledger deployment on Kubernetes. Active contributor and committer.
 GitHub: [github.com/hyperledger/bevel](https://github.com/hyperledger/bevel)
 
-**Fund Tokenization Platform** — Staking, sales, and token contracts across EVM-compatible and Provenance chains using ERC-1400 security token standards.
-GitHub: github.com/lakshyakumar/Tokenization-Platform
+**Fund Tokenization Platform** — Staking, sales, and token contracts across EVM-compatible and Provenance chains using ERC-1400 security token standards; reduced fund onboarding time significantly.
+GitHub: [github.com/lakshyakumar/Tokenization-Platform](https://github.com/lakshyakumar/Tokenization-Platform)
 
 **ERC-4337 Account Abstraction** — Step-by-step Solidity implementation of smart contract wallets and account abstraction patterns.
-GitHub: github.com/lakshyakumar/Demistifying-Account-Abstraction-A-Step-by-Step-Exploration
-
-**Wallact** — TypeScript/ethers.js wrapper for simplified smart contract interaction. Published on npm.
-GitHub: github.com/lakshyakumar/wallact
+GitHub: [github.com/lakshyakumar/Demistifying-Account-Abstraction-A-Step-by-Step-Exploration](https://github.com/lakshyakumar/Demistifying-Account-Abstraction-A-Step-by-Step-Exploration)
 
 ### Developer Tooling & Libraries
 
