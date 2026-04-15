@@ -331,7 +331,7 @@ function Hero() {
         </div>
         <div className="hero-ctas">
           <a href="#contact" className="btn-primary">Get in touch ↗</a>
-          <a href="Lakshya_Kumar_CV.docx" download="Lakshya_Kumar_CV.docx" className="btn-secondary">
+          <a href="Lakshya_Kumar_CV_2026.docx" download="Lakshya_Kumar_CV_2026.docx" className="btn-secondary">
             Download CV ↓
           </a>
           <a href="https://github.com/lakshyakumar" target="_blank" rel="noreferrer" className="btn-secondary">
@@ -510,7 +510,7 @@ function Contact() {
           ))}
         </div>
         <div className="contact-links">
-          <a href="Lakshya_Kumar_CV.docx" download="Lakshya_Kumar_CV.docx" className="contact-link">
+          <a href="Lakshya_Kumar_CV_2026.docx" download="Lakshya_Kumar_CV_2026.docx" className="contact-link">
             📄 Download CV
           </a>
           <a href="mailto:lklsquare@gmail.com" className="contact-link">
