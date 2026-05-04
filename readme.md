@@ -1,5 +1,5 @@
 <h1 align="center">Lakshya Kumar</h1>
-<p align="center"><strong>Tech Lead | Senior Fullstack Engineer, AI &amp; Web3 Systems</strong></p>
+<p align="center"><strong>Tech Lead | Blockchain, AI, Cloud Platforms</strong></p>
 <p align="center">Bengaluru, India</p>
 
 <p align="center">
@@ -12,32 +12,39 @@
   <a href="https://github.com/lakshyakumar"><img src="https://img.shields.io/github/followers/lakshyakumar?label=Follow&style=social" alt="GitHub followers"/></a>
 </p>
 
-Engineering leader with 7+ years building production backend systems, blockchain platforms, AI systems, and cloud-native distributed services. Deep expertise in ACID/BASE database design, concurrent architecture, event-driven microservices, and blue-green/canary/rolling deployments at scale — across EVM ecosystems, tokenization platforms, custodial wallets, AI agents, and crypto payments infrastructure processing 25,000+ daily transactions.
-
-Key outcomes I've delivered: **80%+ faster release cycles**, **99.9% uptime** across distributed services, **60% reduction in retrieval latency** on AI systems, and teams scaled from 5 to 15+ engineers.
+Engineering leader with 7+ years of experience building production blockchain platforms, AI systems, and cloud-native backend services. Expertise spans EVM ecosystems, Provenance Blockchain, tokenization, custodial wallets, ERC-4337 account abstraction, RAG systems, and MCP-compatible AI tooling. Proven track record delivering scalable production systems, reducing release cycles by 80%+, maintaining 99.9% uptime, and leading teams of 5 to 15+ engineers across fintech, enterprise, and open-source environments.
 
 ## Snapshot
 
 - **Current role:** Tech Lead (Contract) at Payram — self-hosted crypto payments platform in Go (Oct 2025 – Present)
+  - Leading architecture, implementation, deployment, and production rollout of the payments platform.
+  - Built and launched a production wallet and payments application supporting live transaction execution.
 - **Previous role:** VP, Web3 & AI Solutions at Formidium (Feb 2024 – Oct 2025)
   - Managed containerized deployment through AWS CodePipelines, using AWS CodeCommit, GitHub Actions, ECR, ECS, CodeBuild, and created the infrastructure using Terraform and CloudFormation.
+  - Architected a fund tokenization platform on EVM and Provenance Blockchain and built an enterprise RAG chatbot with LangChain, LangGraph, and Next.js.
 - **Education:** M.Tech in Computational Mathematics, NIT Surathkal
-- **Core strengths:** blockchain architecture, crypto payments, AI/RAG systems, cloud infrastructure, team leadership
+- **Core strengths:** blockchain architecture, AI/RAG systems, cloud infrastructure, production reliability, team leadership
 - **Deep interests:** crypto rails, ERC-4337 account abstraction, key custody, ZKPs, MCP tooling, developer productivity
 
 ## Toolbox
 
-**Blockchain & Web3**
-EVM, Solidity, ERC-4337, ERC-1400, Account Abstraction, Provenance Blockchain, Hyperledger Fabric, Hyperledger Besu, Polygon, Avalanche, Tokenization, Cross-chain Bridges, Smart Contract Wallets
+**Languages**
+JavaScript, TypeScript, Python, Go, Solidity, Rust
+
+**Backend & Frameworks**
+Node.js, React, Next.js, REST APIs, Microservices, LangChain, LangGraph, CrewAI, PydanticAI
+
+**Blockchain**
+EVM, Provenance Blockchain, Hyperledger Fabric, Hyperledger Besu, Polygon, Avalanche, ERC-1400, ERC-4337, Account Abstraction, Smart Contract Wallets, Tokenization, Cross-chain Bridges
 
 **AI & Agent Systems**
-LangChain, LangGraph, RAG, Semantic Search, Vector Databases, AI Memory Systems, MCP, MCP Servers, PydanticAI, CrewAI, AI Tool Orchestration
+RAG, Semantic Search, Vector Databases, AI Memory Systems, MCP, MCP Servers, AI Tool Orchestration, Context Management
 
-**Cloud, DevOps & Delivery**
-AWS (ECS, EC2, Lambda, S3, ECR, CodeBuild, CodePipeline), Docker, Kubernetes, GitHub Actions, Jenkins, CI/CD, GitOps, Zero-downtime deployments
+**Cloud, DevOps & Reliability**
+AWS (ECS, EC2, Lambda, S3, ECR, CodeBuild, CodePipeline), Docker, Kubernetes, GitHub Actions, Jenkins, CI/CD, GitOps, Zero-downtime deployments, Failover design, Monitoring, Alerting
 
-**Languages & Frameworks**
-Go, TypeScript, JavaScript, Python, Rust, Solidity, Node.js, React, Next.js, REST APIs, Microservices
+**Leadership & Delivery**
+Technical Architecture, Team Leadership, Mentorship, Cross-functional Collaboration, Delivery Management
 
 ## Selected Work
 
@@ -122,9 +129,19 @@ I write about hard technical ideas in ways engineering teams can actually use. T
 - **Building AI-Powered Search with MongoDB Vector Search** (MongoDB, 2025)
 - **Building RAG Apps Using MongoDB** (MongoDB, 2025)
 
+## Education
+
+- **M.Tech in Computational Mathematics** — NIT Surathkal
+- **B.Tech** — Delhi Technological University
+
+## Open Source & Publications
+
+- Author of technical articles on account abstraction, AI tooling, vector search, blockchain systems, and developer tools.
+- Active contributor to open-source blockchain and developer tooling ecosystems.
+
 ## Open To
 
-- Senior engineering, tech lead, and architecture roles in fintech, crypto, AI, and backend systems
+- Senior engineering, tech lead, solutions architect, and architecture roles in fintech, crypto, AI, and backend systems
 - Advisory and product engineering work in payments, tokenization, and applied AI
 - Conversations around crypto rails, developer tooling, custody infrastructure, and MCP/AI agent systems
 
