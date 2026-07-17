@@ -54,6 +54,9 @@ Technical Architecture, Team Leadership, Mentorship, Cross-functional Collaborat
 
 ### 🤖 AI & Agent Systems
 
+### [Capstok](https://www.capstok.com/)
+Interactive "learn by doing" platform for builders — 7,500+ hands-on challenges across 14 tracks spanning AI/ML, blockchain, cloud, security, and systems. MCP-aware, so Claude, Cursor, and agents pull course material through a read-only API to teach and quiz learners in 40+ languages.
+
 ### [RepoMind](https://github.com/lakshyakumar/repomind)
 Repository Intelligence MCP server for coding agents. Provides structured codebase context, semantic search across repos, and tool-based access patterns for AI-assisted development workflows.
 

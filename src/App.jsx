@@ -120,6 +120,13 @@ const FEATURED = {
 const PROJECTS = {
   ai: [
     {
+      icon: '🎓',
+      name: 'Capstok',
+      desc: 'Interactive "learn by doing" platform for builders — 7,500+ hands-on challenges across 14 tracks spanning AI/ML, blockchain, cloud, security, and systems. MCP-aware: Claude, Cursor, and agents pull course material through a read-only API to teach and quiz learners, in 40+ languages.',
+      tags: [['MCP', 'blue'], ['AI Learning', 'purple'], ['Platform', 'cyan']],
+      url: 'https://www.capstok.com/',
+    },
+    {
       icon: '🧠',
       name: 'RepoMind',
       desc: 'Repository Intelligence MCP server for coding agents. Ingests a full codebase and exposes structured context, semantic search, and file-level queries as AI-callable tools — so agents can understand a repo without reading every file.',
@@ -697,6 +704,14 @@ export default function App() {
     <>
       <div className="bg-mesh" />
       <div className="bg-dots" />
+      <div className="bg-orbs" aria-hidden="true">
+        <span className="orb hex" />
+        <span className="orb hex" />
+        <span className="orb hex" />
+        <span className="orb node" />
+        <span className="orb node" />
+        <span className="orb node" />
+      </div>
       <Nav />
       <div className="container">
         <Hero />
