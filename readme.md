@@ -12,17 +12,17 @@
   <a href="https://github.com/lakshyakumar"><img src="https://img.shields.io/github/followers/lakshyakumar?label=Follow&style=social" alt="GitHub followers"/></a>
 </p>
 
-Engineering leader with 7+ years of experience building production blockchain platforms, AI systems, and cloud-native backend services. Expertise spans EVM ecosystems, Provenance Blockchain, tokenization, custodial wallets, ERC-4337 account abstraction, on-ramp/off-ramp payment rails, production-grade RAG and AI agents (evals, guardrails, p95 SLOs), and MCP-compatible AI tooling. Proven track record delivering scalable production systems, reducing release cycles by 80%+, maintaining 99.9% uptime, and leading teams of 5 to 15+ engineers across fintech, enterprise, and open-source environments.
+Engineering leader with 7+ years across fintech, AI, and Web3. I've shipped a Polygon and Ethereum payments platform doing 25,000+ transactions a day, an institutional fund tokenization platform on EVM and Provenance, and an enterprise RAG assistant that's now in production. These days I'm tech lead at Payram, building ZepaPay, an on-ramp/off-ramp crypto payments platform, where I also own the AI agents behind support and operations. I move between architecture review and Go concurrency code without much friction, and I've grown engineering teams from five to fifteen while staying hands-on. Core maintainer of Hyperledger Bevel, author of Mjolnir, and I write on Medium.
 
 ## Snapshot
 
-- **Current role:** Tech Lead (Contract) at Payram — self-hosted crypto payments platform in Go (Nov 2025 – Present)
-  - Leading architecture, implementation, deployment, and production rollout of the payments platform.
-  - Built and launched a production wallet and payments application supporting live transaction execution.
-  - Tech lead for **ZepaPay** — an on-ramp / off-ramp crypto payments platform delivered for client **Consult Now** on Payram rails (fiat↔crypto conversion, KYC/compliance, settlement), with production-grade AI agents (guardrails, tool-calling, evals, model routing) across support and operations.
+- **Current role:** Tech Lead (Contract) at Payram, a self-hosted crypto payments platform in Go (Nov 2025 – Present)
+  - I own the architecture, implementation, and production rollout of the payments platform.
+  - Built and shipped a live wallet and payments app handling real transactions.
+  - Tech lead on **ZepaPay**, an on-ramp/off-ramp crypto payments platform built for **Consult Now** on Payram's rails. It handles fiat-to-crypto conversion, KYC and compliance, and settlement. I also built and run the AI agents behind its support and operations flows.
 - **Previous role:** VP, Web3 & AI Solutions at Formidium (Feb 2024 – Oct 2025)
-  - Managed containerized deployment through AWS CodePipelines, using AWS CodeCommit, GitHub Actions, ECR, ECS, CodeBuild, and created the infrastructure using Terraform and CloudFormation.
-  - Architected a fund tokenization platform on EVM and Provenance Blockchain and built an enterprise RAG assistant with LangChain, LangGraph, and Next.js — hybrid dense + BM25 retrieval fused with RRF, cross-encoder reranking, citation/faithfulness checks, and LLM-as-judge evals wired as CI gates against a p95 latency budget.
+  - Ran containerized deploys through AWS CodePipeline (CodeCommit, GitHub Actions, ECR, ECS, CodeBuild) with infrastructure defined in Terraform and CloudFormation.
+  - Architected a fund tokenization platform on EVM and Provenance, and built the enterprise RAG assistant (LangChain, LangGraph, Next.js). Retrieval mixed keyword and vector search with a reranking pass, and I put the whole thing behind an eval suite so quality regressions got caught in CI before they shipped.
 - **Education:** M.Tech in Computational Mathematics, NIT Surathkal
 - **Core strengths:** blockchain architecture, AI/RAG systems, cloud infrastructure, production reliability, team leadership
 - **Deep interests:** crypto rails, ERC-4337 account abstraction, key custody, ZKPs, MCP tooling, developer productivity
@@ -55,7 +55,7 @@ Technical Architecture, Team Leadership, Mentorship, Cross-functional Collaborat
 ### 🤖 AI & Agent Systems
 
 ### [Capstok](https://www.capstok.com/)
-Interactive "learn by doing" platform for builders — 7,500+ hands-on challenges across 14 tracks spanning AI/ML, blockchain, cloud, security, and systems. MCP-aware, so Claude, Cursor, and agents pull course material through a read-only API to teach and quiz learners in 40+ languages.
+Hands-on learning platform for builders, with 7,500+ challenges across 14 tracks covering AI/ML, blockchain, cloud, security, and systems. It plugs into AI assistants: Claude, Cursor, or any MCP-aware agent can pull the course material over a read-only API to teach and quiz you, in 40+ languages.
 
 ### [RepoMind](https://github.com/lakshyakumar/repomind)
 Repository Intelligence MCP server for coding agents. Provides structured codebase context, semantic search across repos, and tool-based access patterns for AI-assisted development workflows.
@@ -87,7 +87,7 @@ AI agent for movie discovery, recommendations, and knowledge retrieval workflows
 ### ⛓️ Blockchain & Web3
 
 ### [ZepaPay](https://zepapay.com/)
-On-ramp / off-ramp crypto payments platform built on Payram rails for client **Consult Now**. Fiat↔crypto conversion, KYC/compliance, and end-to-end settlement, with production-grade AI agents — guardrails, tool-calling, LLM-as-judge evals, and model routing — across support and operations. Tech lead.
+On-ramp/off-ramp crypto payments platform built on Payram's rails for Consult Now. Handles fiat-to-crypto conversion, KYC and compliance, and settlement. I was tech lead, and also built the AI agents that run behind support and operations.
 
 ### [Hyperledger Bevel](https://github.com/hyperledger/bevel)
 Open-source accelerator for production-ready distributed ledger deployment on Kubernetes. Contributed deployment pipelines for Fabric, Besu, and Quorum.

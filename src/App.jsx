@@ -11,9 +11,9 @@ const EXPERIENCE = [
     current: true,
     stack: ['Go', 'Postgres', 'Redis', 'OpenTelemetry', 'AI Agents', 'Guardrails', 'Evals', 'Circuit Breakers', 'Distroless', 'Blue-Green'],
     bullets: [
-      'Sole tech lead for a self-hosted crypto payments platform written in <strong>Go</strong> — owning architecture, implementation, and the production rollout.',
-      'Tech lead for <strong>ZepaPay</strong>, an on-ramp / off-ramp crypto payments platform delivered for client <strong>Consult Now</strong> on top of Payram rails — fiat↔crypto conversion, KYC and compliance flows, and end-to-end settlement.',
-      'Shipped <strong>production-grade AI agents</strong> into the payments and support flows: tool-calling against tight JSON schemas, three-layer <strong>guardrails</strong> (input / output / scope) with prompt-injection defense, <strong>model routing</strong> to keep cost and latency in budget, and <strong>trajectory + LLM-as-judge evals</strong> gating every release.',
+      'Tech lead for a self-hosted crypto payments platform written in <strong>Go</strong> — owning architecture, implementation, and the production rollout.',
+      'Tech lead on <strong>ZepaPay</strong>, an on-ramp/off-ramp crypto payments platform built for client <strong>Consult Now</strong> on Payram\'s rails. It moves money between fiat and crypto, handles KYC and compliance, and runs settlement end to end.',
+      'Built and shipped the <strong>AI agents</strong> in the payments and support flows. They call tools against strict schemas, sit behind input, output, and scope guardrails to shut down prompt injection, and route between models to keep cost and latency down. Nothing ships until it clears an eval suite — trajectory checks plus an LLM judge.',
       'Built event-driven push and pull queues with concurrent workers and cron-scheduled async settlement, decoupling payment initiation from dispatch. Worker pools scale horizontally and <strong>blue-green pipelines give zero-downtime releases with sub-second dispatch under concurrent load</strong>.',
       'Wired in <strong>OpenTelemetry</strong> across the HTTP, Postgres, and Redis paths with W3C trace-context propagation; structured JSON logs on stdout carry request and trace IDs. Cut mean detection time on the last two production incidents to <strong>under 4 minutes</strong>.',
       'Every outbound call (DB, Redis, third-party rails) goes through a <strong>circuit breaker</strong> that classifies infrastructure errors separately from client-fault errors. A partial Redis blip in March never reached the API tier.',
@@ -31,15 +31,15 @@ const EXPERIENCE = [
     bullets: [
       'Grew the Web3 and AI organization <strong>from six to fifteen engineers</strong> across two product lines, owning hiring, architecture review, and quarterly delivery.',
       'Delivered an institutional <strong>fund tokenization platform</strong> on EVM and Provenance using ERC-1400, with ACID semantics on the off-chain ledger and BASE for distributed on-chain state.',
-      'Built an enterprise <strong>RAG assistant</strong> in Python with LangChain, LangGraph, and a Next.js front-end that <strong>cut analyst research time by 60%</strong> — <strong>hybrid dense + BM25 retrieval fused with RRF</strong>, cross-encoder reranking, and citation / faithfulness checks so every answer traced back to source.',
-      'Wrapped the assistant in an <strong>eval harness</strong> — golden datasets scored by <strong>LLM-as-judge</strong> with position-swap debiasing, wired as <strong>CI eval gates</strong> that blocked regressions before release. Held a <strong>p95 latency budget</strong> with prompt / semantic caching and streaming for perceived speed.',
+      'Built an enterprise <strong>RAG assistant</strong> in Python (LangChain, LangGraph, Next.js front-end) that <strong>cut analyst research time by 60%</strong>. Retrieval combined keyword and vector search with a reranking pass, and every answer carried citations back to source so analysts could check them.',
+      'Put the assistant behind an <strong>eval suite</strong> so quality regressions got caught in CI before release, scoring answers against a golden set with an LLM judge. Kept <strong>p95 latency</strong> in check with caching and streamed responses so it felt fast.',
       'Brought NAV update lag <strong>from minutes down to seconds</strong> through blockchain oracles and an event-driven update pipeline.',
       'Removed single points of failure in custody by re-architecting the wallet layer around <strong>multi-sharded key storage and AWS Secrets Manager</strong>.',
       'Standardised the Web3 services on a layered architecture with one-way dependencies, JSON logging on stdout, and OpenTelemetry tracing across HTTP, Postgres, and the wallet RPC. <strong>Median incident triage moved from about 45 minutes to roughly 12 over two quarters</strong>.',
       'Moved Postgres schema changes to versioned, ordered migration files run as a deploy pre-hook. The "new binary on old schema" incident class went from roughly <strong>one a month to zero</strong> across the year that followed.',
       'Built a Redis-backed distributed rate limiter for the RAG assistant\'s document API with a fail-open branch on Redis blips for the read-mostly workload; held caps across the 6-replica analyst pilot at peak (~480 rps).',
       'Split health probes into a liveness check on a private listener and a readiness check that only flipped green when both Postgres and the vector DB were reachable. Brought spurious pod kills down to near zero.',
-      'Released MCP-compatible AI tooling for internal knowledge retrieval and developer workflows; rolled out SSO across Formidium products.',
+      'Released MCP-compatible AI tooling for internal knowledge retrieval and developer workflows; rolled out SSO across Formidium products, and designed the <strong>monitoring, alerting, failover, and connection pooling</strong> for the high-throughput services.',
     ],
   },
   {
@@ -106,13 +106,17 @@ const ACHIEVEMENTS = [
   { value: '1,200 rps', label: 'Verified throughput', detail: 'Redis-backed token-bucket rate limiter holding the 200 rps cap across 6 instances under load' },
   { value: '26 MB', label: 'Distroless image', detail: 'down from ~410 MB on the first cut; BuildKit cache mounts dropped CI build time from 8 min to 110s' },
   { value: 'mins → secs', label: 'NAV update lag', detail: 'blockchain oracles and event-driven pipelines decoupled on-chain events from downstream consumers' },
+  { value: '~1 min', label: 'Cross-chain settlement', detail: 'Besu↔Avalanche transfers via a blockchain indexer and token bridge cut settlement from hours to under a minute at Xalts' },
+  { value: '→ 0', label: 'Schema-mismatch incidents', detail: 'versioned, ordered Postgres migrations run as a deploy pre-hook took the "new binary on old schema" class from ~1 a month to zero' },
+  { value: '3.4×', label: 'Perf regression caught', detail: 'benchmarked the hot-path RLP encoder and caught a refactor in review that would have shipped ~3.4× slower' },
+  { value: '~70%', label: 'Fewer pod restarts', detail: 'wired health probes to bypass the rate limiter so platform probes never burned quota during traffic spikes' },
 ]
 
 const FEATURED = {
   icon: '💸',
   name: 'ZepaPay',
   tagline: 'On-ramp / off-ramp crypto payments platform, built on Payram rails.',
-  desc: 'Tech lead for ZepaPay, a fiat↔crypto on-ramp / off-ramp payments platform delivered for Consult Now on top of Payram. Handles fiat and crypto conversion, KYC and compliance, and end-to-end settlement — with production-grade AI agents woven through support and operations: tool-calling on tight schemas, three-layer guardrails with prompt-injection defense, model routing for cost and latency, and trajectory + LLM-as-judge evals gating every release.',
+  desc: 'I was tech lead on ZepaPay, an on-ramp/off-ramp crypto payments platform built for Consult Now on top of Payram. It moves money between fiat and crypto, handles KYC and compliance, and runs settlement end to end. I also built the AI agents behind its support and operations — the tool-calling, the guardrails that stop prompt injection, the model routing that keeps costs sane, and the eval suite that has to pass before anything ships.',
   tags: [['Payments', 'green'], ['On/Off-Ramp', 'cyan'], ['AI Agents', 'purple'], ['Tech Lead', 'orange']],
   url: 'https://zepapay.com/',
 }
@@ -122,7 +126,7 @@ const PROJECTS = {
     {
       icon: '🎓',
       name: 'Capstok',
-      desc: 'Interactive "learn by doing" platform for builders — 7,500+ hands-on challenges across 14 tracks spanning AI/ML, blockchain, cloud, security, and systems. MCP-aware: Claude, Cursor, and agents pull course material through a read-only API to teach and quiz learners, in 40+ languages.',
+      desc: 'Hands-on learning platform for builders, with 7,500+ challenges across 14 tracks covering AI/ML, blockchain, cloud, security, and systems. It plugs into AI assistants: Claude, Cursor, or any MCP-aware agent can pull the course material over a read-only API to teach and quiz you, in 40+ languages.',
       tags: [['MCP', 'blue'], ['AI Learning', 'purple'], ['Platform', 'cyan']],
       url: 'https://www.capstok.com/',
     },
@@ -187,7 +191,7 @@ const PROJECTS = {
     {
       icon: '💸',
       name: 'ZepaPay',
-      desc: 'On-ramp / off-ramp crypto payments platform built on Payram rails for client Consult Now. Fiat↔crypto conversion, KYC / compliance, and end-to-end settlement, with production-grade AI agents (guardrails, tool-calling, evals, model routing) across support and operations. Tech lead.',
+      desc: 'On-ramp/off-ramp crypto payments platform built on Payram\'s rails for Consult Now. Handles fiat-to-crypto conversion, KYC and compliance, and settlement. I was tech lead, and also built the AI agents that run behind support and operations.',
       tags: [['Payments', 'green'], ['On/Off-Ramp', 'cyan'], ['AI Agents', 'purple']],
       url: 'https://zepapay.com/',
     },
@@ -391,8 +395,10 @@ function Hero() {
           Engineering leader with 7+ years across fintech, AI, and Web3. Recent work: a Polygon and
           Ethereum payments platform handling <strong>25,000+ daily transactions</strong>, an
           institutional fund tokenization platform on EVM and Provenance, and an enterprise RAG
-          assistant now in production. Comfortable moving between architecture review and Go
-          concurrency code, and have grown engineering teams <strong>from five to fifteen</strong>
+          assistant now in production. These days I'm tech lead at <strong>Payram</strong>, building{' '}
+          <strong>ZepaPay</strong>, an on-ramp/off-ramp crypto payments platform, where I also own the
+          AI agents behind support and operations. Comfortable moving between architecture review and
+          Go concurrency code, and have grown engineering teams <strong>from five to fifteen</strong>
           while staying hands-on. Core maintainer of <strong>Hyperledger Bevel</strong>, author of{' '}
           <strong>Mjolnir</strong> (an open-source production-readiness audit), and a regular
           technical writer on Medium.
