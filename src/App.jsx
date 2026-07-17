@@ -7,11 +7,13 @@ const EXPERIENCE = [
   {
     role: 'Tech Lead (Contract)',
     company: 'Payram',
-    date: 'Oct 2025 – Present',
+    date: 'Nov 2025 – Present',
     current: true,
-    stack: ['Go', 'Postgres', 'Redis', 'OpenTelemetry', 'Circuit Breakers', 'Distroless', 'Blue-Green'],
+    stack: ['Go', 'Postgres', 'Redis', 'OpenTelemetry', 'AI Agents', 'Guardrails', 'Evals', 'Circuit Breakers', 'Distroless', 'Blue-Green'],
     bullets: [
       'Sole tech lead for a self-hosted crypto payments platform written in <strong>Go</strong> — owning architecture, implementation, and the production rollout.',
+      'Tech lead for <strong>ZepaPay</strong>, an on-ramp / off-ramp crypto payments platform delivered for client <strong>Consult Now</strong> on top of Payram rails — fiat↔crypto conversion, KYC and compliance flows, and end-to-end settlement.',
+      'Shipped <strong>production-grade AI agents</strong> into the payments and support flows: tool-calling against tight JSON schemas, three-layer <strong>guardrails</strong> (input / output / scope) with prompt-injection defense, <strong>model routing</strong> to keep cost and latency in budget, and <strong>trajectory + LLM-as-judge evals</strong> gating every release.',
       'Built event-driven push and pull queues with concurrent workers and cron-scheduled async settlement, decoupling payment initiation from dispatch. Worker pools scale horizontally and <strong>blue-green pipelines give zero-downtime releases with sub-second dispatch under concurrent load</strong>.',
       'Wired in <strong>OpenTelemetry</strong> across the HTTP, Postgres, and Redis paths with W3C trace-context propagation; structured JSON logs on stdout carry request and trace IDs. Cut mean detection time on the last two production incidents to <strong>under 4 minutes</strong>.',
       'Every outbound call (DB, Redis, third-party rails) goes through a <strong>circuit breaker</strong> that classifies infrastructure errors separately from client-fault errors. A partial Redis blip in March never reached the API tier.',
@@ -25,11 +27,12 @@ const EXPERIENCE = [
     role: 'VP, Web3 & AI Solutions',
     company: 'Formidium',
     date: 'Feb 2024 – Oct 2025',
-    stack: ['ERC-1400', 'EVM', 'Provenance', 'LangChain', 'LangGraph', 'Next.js', 'MCP', 'Postgres', 'Redis'],
+    stack: ['ERC-1400', 'EVM', 'Provenance', 'LangChain', 'LangGraph', 'RAG', 'Reranking', 'LLM-as-Judge', 'p95 / SLOs', 'Next.js', 'MCP', 'Postgres', 'Redis'],
     bullets: [
       'Grew the Web3 and AI organization <strong>from six to fifteen engineers</strong> across two product lines, owning hiring, architecture review, and quarterly delivery.',
       'Delivered an institutional <strong>fund tokenization platform</strong> on EVM and Provenance using ERC-1400, with ACID semantics on the off-chain ledger and BASE for distributed on-chain state.',
-      'Built an enterprise <strong>RAG assistant</strong> in Python with LangChain, LangGraph, and a Next.js front-end that <strong>cut analyst research time by 60%</strong> on internal document retrieval.',
+      'Built an enterprise <strong>RAG assistant</strong> in Python with LangChain, LangGraph, and a Next.js front-end that <strong>cut analyst research time by 60%</strong> — <strong>hybrid dense + BM25 retrieval fused with RRF</strong>, cross-encoder reranking, and citation / faithfulness checks so every answer traced back to source.',
+      'Wrapped the assistant in an <strong>eval harness</strong> — golden datasets scored by <strong>LLM-as-judge</strong> with position-swap debiasing, wired as <strong>CI eval gates</strong> that blocked regressions before release. Held a <strong>p95 latency budget</strong> with prompt / semantic caching and streaming for perceived speed.',
       'Brought NAV update lag <strong>from minutes down to seconds</strong> through blockchain oracles and an event-driven update pipeline.',
       'Removed single points of failure in custody by re-architecting the wallet layer around <strong>multi-sharded key storage and AWS Secrets Manager</strong>.',
       'Standardised the Web3 services on a layered architecture with one-way dependencies, JSON logging on stdout, and OpenTelemetry tracing across HTTP, Postgres, and the wallet RPC. <strong>Median incident triage moved from about 45 minutes to roughly 12 over two quarters</strong>.',
@@ -106,12 +109,12 @@ const ACHIEVEMENTS = [
 ]
 
 const FEATURED = {
-  icon: '🔨',
-  name: 'Mjolnir',
-  tagline: 'Open-source production-readiness audit. Language and agent agnostic.',
-  desc: 'Walks any backend service against a 19-item canonical checklist — cancellation propagation, connection pooling, circuit breakers, distributed rate limiting, leader election, structured logging, OpenTelemetry tracing, RED metrics, profiling, graceful shutdown, distroless images, fuzz tests, canary tests for cross-process invariants, schema migrations, and more — and returns a single WORTHY or NOT WORTHY verdict with file-level evidence. Recommends idiomatic libraries per detected stack across Go, Node, Python, Java, and Rust. Ships as a skill for Claude Code and Cowork.',
-  tags: [['Open Source', 'green'], ['Production-Readiness', 'cyan'], ['Multi-Language', 'blue'], ['Claude Skill', 'purple']],
-  url: 'https://github.com/lakshyakumar/mjolnir',
+  icon: '💸',
+  name: 'ZepaPay',
+  tagline: 'On-ramp / off-ramp crypto payments platform, built on Payram rails.',
+  desc: 'Tech lead for ZepaPay, a fiat↔crypto on-ramp / off-ramp payments platform delivered for Consult Now on top of Payram. Handles fiat and crypto conversion, KYC and compliance, and end-to-end settlement — with production-grade AI agents woven through support and operations: tool-calling on tight schemas, three-layer guardrails with prompt-injection defense, model routing for cost and latency, and trajectory + LLM-as-judge evals gating every release.',
+  tags: [['Payments', 'green'], ['On/Off-Ramp', 'cyan'], ['AI Agents', 'purple'], ['Tech Lead', 'orange']],
+  url: 'https://zepapay.com/',
 }
 
 const PROJECTS = {
@@ -175,6 +178,13 @@ const PROJECTS = {
   ],
   blockchain: [
     {
+      icon: '💸',
+      name: 'ZepaPay',
+      desc: 'On-ramp / off-ramp crypto payments platform built on Payram rails for client Consult Now. Fiat↔crypto conversion, KYC / compliance, and end-to-end settlement, with production-grade AI agents (guardrails, tool-calling, evals, model routing) across support and operations. Tech lead.',
+      tags: [['Payments', 'green'], ['On/Off-Ramp', 'cyan'], ['AI Agents', 'purple']],
+      url: 'https://zepapay.com/',
+    },
+    {
       icon: '⚙️',
       name: 'Hyperledger Bevel',
       desc: 'Open-source accelerator for distributed ledger deployment on Kubernetes. Core contributor to deployment pipelines for Hyperledger Fabric, Besu, and JP Morgan Quorum — widely adopted across enterprise blockchain projects globally.',
@@ -204,6 +214,13 @@ const PROJECTS = {
     },
   ],
   tooling: [
+    {
+      icon: '🔨',
+      name: 'Mjolnir',
+      desc: 'Open-source, language- and agent-agnostic production-readiness audit. Walks any backend service against a 19-item canonical checklist — circuit breakers, distributed rate limiting, leader election, OpenTelemetry tracing, RED metrics, graceful shutdown, distroless images, schema migrations, and more — and returns a WORTHY / NOT WORTHY verdict with file-level evidence. Ships as a skill for Claude Code and Cowork.',
+      tags: [['Open Source', 'green'], ['Production-Readiness', 'cyan'], ['Claude Skill', 'purple']],
+      url: 'https://github.com/lakshyakumar/mjolnir',
+    },
     {
       icon: '⚡',
       name: 'Turbulent',
@@ -265,12 +282,17 @@ const SKILLS = [
   {
     icon: '🤖',
     title: 'AI & Agent Systems',
-    pills: ['LangChain', 'LangGraph', 'CrewAI', 'PydanticAI', 'RAG Pipelines', 'MCP Servers', 'Vector DBs', 'Semantic Search', 'Tool Orchestration', 'AI Memory'],
+    pills: ['LangChain', 'LangGraph', 'CrewAI', 'PydanticAI', 'RAG Pipelines', 'Hybrid Retrieval (RRF)', 'Reranking', 'MCP Servers', 'Vector DBs', 'Semantic Search', 'Tool Orchestration', 'Agent Guardrails', 'Trajectory Evals', 'LLM-as-Judge', 'Prompt Injection Defense', 'Model Routing', 'Prompt Caching', 'AI Memory'],
+  },
+  {
+    icon: '🧪',
+    title: 'LLMOps & Model Serving',
+    pills: ['LoRA / QLoRA', 'PEFT', 'vLLM', 'Triton', 'TensorRT-LLM', 'Quantization (AWQ/GPTQ/FP8)', 'MLflow', 'Langfuse', 'Eval Gates', 'Drift Detection', 'p95 / SLOs'],
   },
   {
     icon: '🏗️',
     title: 'Production-Readiness',
-    pills: ['OpenTelemetry', 'Structured Logging', 'RED Metrics', 'Circuit Breakers', 'Distributed Rate Limiting', 'Leader Election', 'Graceful Shutdown', 'Distroless Containers', 'Fuzz / Property Tests', 'Schema Migrations'],
+    pills: ['OpenTelemetry', 'Structured Logging', 'RED Metrics', 'p95 / p99 SLOs', 'Tail-Latency Budgets', 'Circuit Breakers', 'Distributed Rate Limiting', 'Leader Election', 'Graceful Shutdown', 'Distroless Containers', 'Fuzz / Property Tests', 'Schema Migrations'],
   },
   {
     icon: '⚡',
@@ -280,7 +302,7 @@ const SKILLS = [
   {
     icon: '☁️',
     title: 'Cloud & DevOps',
-    pills: ['AWS ECS', 'EC2', 'Lambda', 'S3', 'ECR', 'CodePipeline', 'Docker', 'Kubernetes', 'GitHub Actions', 'Jenkins', 'GitOps', 'Blue-Green', 'Canary', 'Rolling Deploys'],
+    pills: ['AWS ECS', 'EC2', 'Lambda', 'S3', 'ECR', 'CodePipeline', 'Docker', 'Kubernetes', 'GPU Orchestration', 'Autoscaling', 'GitHub Actions', 'Jenkins', 'GitOps', 'Blue-Green', 'Canary', 'Rolling Deploys'],
   },
   {
     icon: '💻',
@@ -471,7 +493,7 @@ function FeaturedProject() {
   return (
     <section id="featured">
       <div className="section-label">// featured</div>
-      <h2 className="section-title">Featured Open Source</h2>
+      <h2 className="section-title">Featured Work</h2>
       <a className="featured-card" href={FEATURED.url} target="_blank" rel="noreferrer">
         <div className="featured-glow" />
         <div className="featured-top">
