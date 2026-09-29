@@ -12,14 +12,14 @@
   <a href="https://github.com/lakshyakumar"><img src="https://img.shields.io/github/followers/lakshyakumar?label=Follow&style=social" alt="GitHub followers"/></a>
 </p>
 
-Engineering leader with 7+ years across fintech, AI, and Web3. I've shipped a Polygon and Ethereum payments platform doing 25,000+ transactions a day, an institutional fund tokenization platform on EVM and Provenance, and an enterprise RAG assistant that's now in production. These days I'm tech lead at Payram, building ZepaPay, an on-ramp/off-ramp crypto payments platform, where I also own the AI agents behind support and operations. I move between architecture review and Go concurrency code without much friction, and I've grown engineering teams from five to fifteen while staying hands-on. Core maintainer of Hyperledger Bevel, author of Mjolnir, and I write on Medium.
+Engineering leader, eight years across fintech, AI, and Web3, most of it on early-stage builds rather than long runs on mature systems. I've shipped a Polygon and Ethereum payments platform doing 25,000+ transactions a day, an institutional fund tokenization platform on EVM and Provenance, and an enterprise RAG assistant that's now in production. Right now I'm tech lead at Payram and ZepaPay, the on-ramp/off-ramp crypto payments platform, where I own the distributed ledger and the AI agents behind support and operations. I move between architecture review and Go concurrency code without much friction, and I've grown engineering teams from five to fifteen while staying hands-on. Core maintainer of Hyperledger Bevel, author of Mjolnir, and I write on Medium.
 
 ## Snapshot
 
 - **Current role:** Tech Lead (Contract) at Payram, a self-hosted crypto payments platform in Go (Nov 2025 – Present)
   - I own the architecture, implementation, and production rollout of the payments platform.
   - Built and shipped a live wallet and payments app handling real transactions.
-  - Tech lead on **ZepaPay**, an on-ramp/off-ramp crypto payments platform built for **Consult Now** on Payram's rails. It handles fiat-to-crypto conversion, KYC and compliance, and settlement. I also built and run the AI agents behind its support and operations flows.
+  - Tech lead on **ZepaPay**, an on-ramp/off-ramp crypto payments platform built for **Consult Now** on Payram's rails. It handles fiat-to-crypto conversion, KYC and compliance, and settlement on a sharded distributed ledger I built, where reads fan out across shards and aggregate on the way back. I also built and run the AI agents behind its support and operations flows.
 - **Previous role:** VP, Web3 & AI Solutions at Formidium (Feb 2024 – Oct 2025)
   - Ran containerized deploys through AWS CodePipeline (CodeCommit, GitHub Actions, ECR, ECS, CodeBuild) with infrastructure defined in Terraform and CloudFormation.
   - Architected a fund tokenization platform on EVM and Provenance, and built the enterprise RAG assistant (LangChain, LangGraph, Next.js). Retrieval mixed keyword and vector search with a reranking pass, and I put the whole thing behind an eval suite so quality regressions got caught in CI before they shipped.
@@ -32,8 +32,11 @@ Engineering leader with 7+ years across fintech, AI, and Web3. I've shipped a Po
 **Languages**
 JavaScript, TypeScript, Python, Go, Solidity, Rust
 
+**Architecture & Code Quality**
+SOLID principles, Clean / Layered Architecture, One-way Dependency Rules, Interface-driven Design, Domain Modelling, Design Patterns, Refactoring, Code Review Standards
+
 **Backend & Frameworks**
-Node.js, React, Next.js, REST APIs, Microservices, LangChain, LangGraph, CrewAI, PydanticAI
+Node.js, React, Next.js, REST APIs, Microservices, Database Sharding (scatter-gather), ACID & BASE design, LangChain, LangGraph, CrewAI, PydanticAI
 
 **Blockchain**
 EVM, Provenance Blockchain, Hyperledger Fabric, Hyperledger Besu, Polygon, Avalanche, ERC-1400, ERC-4337, Account Abstraction, Smart Contract Wallets, Tokenization, Cross-chain Bridges
@@ -86,8 +89,8 @@ AI agent for movie discovery, recommendations, and knowledge retrieval workflows
 
 ### ⛓️ Blockchain & Web3
 
-### [ZepaPay](https://zepapay.com/)
-On-ramp/off-ramp crypto payments platform built on Payram's rails for Consult Now. Handles fiat-to-crypto conversion, KYC and compliance, and settlement. I was tech lead, and also built the AI agents that run behind support and operations.
+### [ZepaPay](https://app.zepapay.com/)
+On-ramp/off-ramp crypto payments platform built on Payram's rails for Consult Now. Handles fiat-to-crypto conversion, KYC and compliance, a sharded distributed ledger, and settlement. I was tech lead, and also built the AI agents that run behind support and operations.
 
 ### [Hyperledger Bevel](https://github.com/hyperledger/bevel)
 Open-source accelerator for production-ready distributed ledger deployment on Kubernetes. Contributed deployment pipelines for Fabric, Besu, and Quorum.
