@@ -294,12 +294,12 @@ const SKILLS = [
   {
     icon: '🤖',
     title: 'AI & Agent Systems',
-    pills: ['LangChain', 'LangGraph', 'CrewAI', 'PydanticAI', 'RAG Pipelines', 'Hybrid Retrieval (BM25 + Dense, RRF)', 'Reranking', 'MCP Servers', 'Vector DBs', 'Semantic Search', 'Tool Orchestration', 'Agent Guardrails', 'Trajectory Evals', 'LLM-as-Judge', 'Prompt Injection Defense', 'Model Routing', 'Prompt Caching', 'AI Memory'],
+    pills: ['LangChain', 'LangGraph', 'CrewAI', 'PydanticAI', 'RAG Pipelines', 'Hybrid Retrieval (BM25 + Dense)', 'RRF', 'Reranking', 'MCP Servers', 'Vector DBs', 'Semantic Search', 'Tool Orchestration', 'Agent Guardrails', 'Trajectory Evals', 'LLM-as-Judge', 'Prompt Injection Defense', 'Model Routing', 'Prompt Caching', 'AI Memory'],
   },
   {
     icon: '🧪',
     title: 'LLMOps & Model Serving',
-    pills: ['LoRA / QLoRA', 'PEFT', 'vLLM', 'Triton', 'TensorRT-LLM', 'Quantization (AWQ/GPTQ/FP8)', 'MLflow', 'Langfuse', 'Golden Datasets', 'Eval Gates', 'Drift Detection', 'p95 / SLOs'],
+    pills: ['LoRA / QLoRA', 'PEFT', 'vLLM', 'Triton', 'TensorRT-LLM', 'Quantization', 'AWQ / GPTQ / FP8', 'MLflow', 'Langfuse', 'Golden Datasets', 'Eval Gates', 'Drift Detection', 'p95 / SLOs'],
   },
   {
     icon: '🏗️',

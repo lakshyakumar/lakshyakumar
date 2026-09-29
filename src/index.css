@@ -652,9 +652,8 @@ section {
 
 /* ── Skills ── */
 .skills-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 16px;
+  columns: 3 300px;
+  column-gap: 16px;
 }
 
 .skill-group {
@@ -667,6 +666,8 @@ section {
   transition: all 0.3s ease;
   opacity: 0;
   transform: translateY(16px);
+  break-inside: avoid;
+  margin-bottom: 16px;
 }
 
 .skill-group.visible {
@@ -706,6 +707,7 @@ section {
   background: rgba(15, 23, 42, 0.04);
   color: var(--text-secondary);
   border: 1px solid var(--border-glass);
+  white-space: nowrap;
   transition: all 0.2s ease;
 }
 
